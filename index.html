@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yokota Jobs</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1B3A5C">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Yokota Jobs">
+<link rel="apple-touch-icon" href="icon-180.png">
+<style>
+  :root{
+    --bg:#F7F6F3; --card:#FFFFFF; --ink:#1A1A18; --sub:#6B6B66;
+    --line:#E4E2DC; --accent:#1B3A5C; --accent-soft:#EAF0F6;
+    --good:#1E7A5A; --good-soft:#E4F2EC;
+    --warn:#9A6510; --warn-soft:#FBF0DC;
+    --safe-t:env(safe-area-inset-top); --safe-b:env(safe-area-inset-bottom);
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#15171A; --card:#1E2126; --ink:#ECEAE5; --sub:#9A9891;
+      --line:#2C3037; --accent:#5B8FC4; --accent-soft:#22303F;
+      --good:#4FB894; --good-soft:#1B302A;
+      --warn:#D2A050; --warn-soft:#332A18;
+    }
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    padding-top:var(--safe-t); padding-bottom:var(--safe-b);
+    -webkit-font-smoothing:antialiased;
+  }
+  header{
+    position:sticky; top:0; z-index:20; background:var(--accent); color:#fff;
+    padding:calc(var(--safe-t) + 14px) 16px 12px; margin-top:calc(var(--safe-t) * -1);
+  }
+  h1{margin:0;font-size:19px;font-weight:650;letter-spacing:.2px}
+  .meta{font-size:12px;opacity:.8;margin-top:3px}
+
+  .tabs{display:flex;gap:4px;padding:10px 12px 0;background:var(--accent)}
+  .tab{
+    flex:1;text-align:center;padding:9px 4px;font-size:13px;font-weight:600;
+    color:#fff;opacity:.55;border:0;background:none;border-bottom:2.5px solid transparent;
+  }
+  .tab.on{opacity:1;border-bottom-color:#fff}
+
+  .filters{padding:11px 12px 9px;background:var(--card);border-bottom:1px solid var(--line)}
+  .frow{margin-bottom:9px}
+  #morefilters summary{
+    list-style:none;font-size:12.5px;font-weight:650;color:var(--accent);
+    padding-top:3px;cursor:pointer;
+  }
+  #morefilters summary::-webkit-details-marker{display:none}
+  #morefilters summary::after{content:" ▾"}
+  #morefilters[open] summary::after{content:" ▴"}
+  #morefilters[open] .frow:last-child{margin-bottom:0}
+  .flabel{font-size:11px;font-weight:700;color:var(--sub);text-transform:uppercase;letter-spacing:.6px;margin-bottom:6px}
+  .chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;-webkit-overflow-scrolling:touch}
+  .chips::-webkit-scrollbar{display:none}
+  .chip{
+    flex:0 0 auto;padding:7px 13px;border-radius:999px;border:1px solid var(--line);
+    background:var(--bg);color:var(--ink);font-size:13px;font-weight:550;white-space:nowrap;
+  }
+  .chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+  .count{padding:10px 16px;font-size:13px;color:var(--sub);font-weight:550}
+  main{padding:0 12px 40px}
+
+  .job{
+    background:var(--card);border:1px solid var(--line);border-radius:13px;
+    padding:14px;margin-bottom:9px;
+  }
+  .job.closed{opacity:.5}
+  .jt{font-size:16px;font-weight:650;line-height:1.35;margin:0 0 2px}
+  .jt-ja{font-size:12.5px;color:var(--sub);margin-bottom:9px}
+  .badges{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+  .b{font-size:11.5px;font-weight:650;padding:3.5px 8px;border-radius:6px;background:var(--bg);color:var(--sub)}
+  .b.eng-none{background:var(--good-soft);color:var(--good)}
+  .b.eng-need{background:var(--warn-soft);color:var(--warn)}
+  .b.pay{background:var(--accent-soft);color:var(--accent)}
+  .b.jp{background:#FBE9E7;color:#B3402F}
+  .b.new{background:#B3402F;color:#fff}
+  .jmeta{font-size:13px;color:var(--sub);display:flex;flex-wrap:wrap;gap:4px 12px}
+
+  details.more{margin-top:11px;border-top:1px solid var(--line);padding-top:9px}
+  details.more summary{
+    font-size:13px;font-weight:650;color:var(--accent);cursor:pointer;list-style:none;
+  }
+  details.more summary::-webkit-details-marker{display:none}
+  details.more summary::after{content:" ▾"}
+  details.more[open] summary::after{content:" ▴"}
+  .sec{margin-top:12px}
+  .sec h4{margin:0 0 4px;font-size:11px;font-weight:700;color:var(--sub);text-transform:uppercase;letter-spacing:.6px}
+  .sec p{margin:0;font-size:13.5px;white-space:pre-wrap;line-height:1.6}
+  .sec .ja{color:var(--sub);font-size:12.5px;margin-top:5px;white-space:pre-wrap}
+
+  /* Trends tab */
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:15px;margin-bottom:10px}
+  .panel h3{margin:0 0 3px;font-size:15px;font-weight:650}
+  .panel .hint{font-size:12.5px;color:var(--sub);margin:0 0 13px;line-height:1.5}
+  .bar{display:flex;align-items:center;gap:9px;margin-bottom:8px}
+  .bar .lb{flex:0 0 108px;font-size:12.5px;color:var(--sub)}
+  .bar .tr{flex:1;height:20px;background:var(--bg);border-radius:5px;overflow:hidden}
+  .bar .fl{height:100%;background:var(--accent);border-radius:5px;min-width:2px}
+  .bar .fl.g{background:var(--good)}
+  .bar .vn{flex:0 0 42px;text-align:right;font-size:12.5px;font-weight:650}
+  .note{font-size:12.5px;color:var(--sub);line-height:1.6;background:var(--card);
+        border:1px solid var(--line);border-radius:13px;padding:14px;margin-bottom:10px}
+  .note b{color:var(--ink)}
+  .empty{text-align:center;color:var(--sub);padding:44px 20px;font-size:14px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Yokota Jobs</h1>
+  <div class="meta" id="meta">Loading…</div>
+</header>
+
+<div class="tabs">
+  <button class="tab on" data-tab="jobs">Jobs</button>
+  <button class="tab" data-tab="trends">Trends</button>
+  <button class="tab" data-tab="about">About</button>
+</div>
+
+<div id="view-jobs">
+  <div class="filters">
+    <div class="frow">
+      <div class="flabel">English requirement</div>
+      <div class="chips" id="f-eng"></div>
+    </div>
+    <details id="morefilters">
+      <summary id="moresum">More filters</summary>
+      <div class="frow" style="margin-top:10px">
+        <div class="flabel">Job type</div>
+        <div class="chips" id="f-cat"></div>
+      </div>
+      <div class="frow">
+        <div class="flabel">Contract</div>
+        <div class="chips" id="f-emp"></div>
+      </div>
+    </details>
+  </div>
+  <div class="count" id="count"></div>
+  <main id="list"></main>
+</div>
+
+<div id="view-trends" hidden><main style="padding-top:12px" id="trends"></main></div>
+
+<div id="view-about" hidden>
+  <main style="padding-top:12px">
+    <div class="note">
+      <h3 style="margin:0 0 8px;font-size:15px">Who can apply?</h3>
+      <p style="margin:0 0 10px">LMO jobs have <b>no nationality restriction</b>, except that
+      US military members / civilian employees / their families cannot apply (MLC), and
+      US citizens cannot apply to IHA positions.</p>
+      <p style="margin:0 0 10px">Non-Japanese applicants need a residence card showing
+      <b>"就労制限なし" (no work restriction)</b>. A spouse-of-Japanese-national visa
+      (日本人の配偶者等) has no work restriction.</p>
+      <p style="margin:0"><b>English certificates are mandatory</b> where a language level is
+      listed — self-declared ability is not accepted. You must attach a copy of a TOEIC /
+      Eiken / TOEFL certificate.</p>
+    </div>
+    <div class="note">
+      <h3 style="margin:0 0 8px;font-size:15px">About Japanese</h3>
+      <p style="margin:0">LMO postings do <b>not</b> have a standard "Japanese level" field.
+      This app flags a job only when Japanese is explicitly mentioned in the text.
+      No flag does not guarantee Japanese is unnecessary — the application form itself
+      (履歴書) must be filled in <b>both Japanese and English</b>.</p>
+    </div>
+    <div class="note">
+      <h3 style="margin:0 0 8px;font-size:15px">Source</h3>
+      <p style="margin:0">Data is collected weekly from the LMO (駐留軍等労働者労務管理機構)
+      public job site, Yokota branch. Closed postings are kept so we can see how the market
+      looks over time.<br><br>
+      <a href="https://www.lmo.go.jp/recruitment/" target="_blank" rel="noopener">lmo.go.jp/recruitment</a></p>
+    </div>
+  </main>
+</div>
+
+<script>
+const CAT_EN = {office:"Office / Tech", trade:"Trade / Labor", security:"Security / Fire",
+                medical:"Medical", nursing:"Nursing", other:"Other"};
+const EMP_EN = {regular:"Full-time", limited:"Fixed-term", hourly:"Hourly", daily:"Daily", other:"Other"};
+const ENG_BANDS = [
+  {k:"all",   label:"All"},
+  {k:"none",  label:"No English test"},
+  {k:"le500", label:"TOEIC ≤ 500"},
+  {k:"le600", label:"TOEIC ≤ 600"},
+  {k:"le700", label:"TOEIC ≤ 700"},
+];
+
+let DATA = {items:[]};
+let F = {eng:"all", cat:"all", emp:"all"};
+
+const yen = n => n ? "¥" + n.toLocaleString() : null;
+const esc = s => (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function engOK(it){
+  const t = it.eng_toeic;
+  switch(F.eng){
+    case "none":  return !it.eng_level && !t;
+    case "le500": return !t || t <= 500;
+    case "le600": return !t || t <= 600;
+    case "le700": return !t || t <= 700;
+    default: return true;
+  }
+}
+const visible = () => DATA.items.filter(it =>
+  it.active && engOK(it) &&
+  (F.cat === "all" || it.category === F.cat) &&
+  (F.emp === "all" || it.employment_type === F.emp));
+
+function isNew(it){
+  if(!it.first_seen) return false;
+  return (Date.now() - new Date(it.first_seen).getTime()) < 14*864e5;
+}
+
+function card(it){
+  const b = [];
+  if(isNew(it)) b.push('<span class="b new">NEW</span>');
+  if(it.eng_toeic)      b.push(`<span class="b eng-need">TOEIC ${it.eng_toeic}+</span>`);
+  else if(it.eng_level) b.push(`<span class="b eng-need">Eng level ${it.eng_level}</span>`);
+  else                  b.push('<span class="b eng-none">No English test</span>');
+  if(it.salary_total)       b.push(`<span class="b pay">${yen(it.salary_total)}/mo</span>`);
+  else if(it.salary_hourly) b.push(`<span class="b pay">${yen(it.salary_hourly)}/hr</span>`);
+  if(it.jp_mentioned) b.push('<span class="b jp">Japanese mentioned</span>');
+
+  const sec = (h, en, ja) => (en||ja)
+    ? `<div class="sec"><h4>${h}</h4><p>${esc(en||ja)}</p>${en&&ja?`<div class="ja">${esc(ja)}</div>`:""}</div>` : "";
+
+  return `<article class="job">
+    <h3 class="jt">${esc(it.title_en || it.title)}</h3>
+    <div class="jt-ja">${esc(it.title)}</div>
+    <div class="badges">${b.join("")}</div>
+    <div class="jmeta">
+      <span>${CAT_EN[it.category]||it.category}</span>
+      <span>${EMP_EN[it.employment_type]||""}</span>
+      <span>${it.contract||""}</span>
+      <span>Posted ${esc(it.posted||"")}</span>
+    </div>
+    <details class="more"><summary>Details</summary>
+      ${sec("What you would do", it.description_en, it.description)}
+      ${it.eng_raw ? sec("English requirement", "", it.eng_raw) : ""}
+      ${sec("Requirements", "", it.requirements)}
+      ${it.jp_note ? sec("Japanese mentioned in", "", it.jp_note) : ""}
+      ${sec("Salary", "", it.salary_raw)}
+      ${sec("Hours", "", it.hours)}
+      ${sec("Days off", "", it.holidays)}
+      ${sec("Age", "", it.age)}
+      ${sec("Insurance", "", it.insurance)}
+      ${sec("Housing allowance", "", it.housing)}
+      ${sec("Commute allowance", "", it.commute_allowance)}
+      ${sec("Deadline", "", it.deadline_net)}
+      ${sec("How to apply", "", it.remarks)}
+      <div class="sec"><h4>Reference no.</h4><p>${esc(it.id)}</p></div>
+    </details>
+  </article>`;
+}
+
+function chips(el, opts, key){
+  el.innerHTML = opts.map(o =>
+    `<button class="chip ${F[key]===o.k?"on":""}" data-k="${o.k}">${esc(o.label)}</button>`).join("");
+  el.onclick = e => {
+    const btn = e.target.closest(".chip"); if(!btn) return;
+    F[key] = btn.dataset.k; render();
+  };
+}
+
+function render(){
+  const items = visible();
+  document.getElementById("count").textContent =
+    `${items.length} open position${items.length===1?"":"s"}`;
+  document.getElementById("list").innerHTML =
+    items.length ? items.map(card).join("")
+                 : '<div class="empty">No jobs match these filters.<br>Try widening the English requirement.</div>';
+  // チップの選択状態を描き直す
+  chips(document.getElementById("f-eng"), ENG_BANDS, "eng");
+  chips(document.getElementById("f-cat"),
+    [{k:"all",label:"All"}].concat([...new Set(DATA.items.filter(i=>i.active).map(i=>i.category))]
+      .map(c=>({k:c,label:CAT_EN[c]||c}))), "cat");
+  chips(document.getElementById("f-emp"),
+    [{k:"all",label:"All"}].concat([...new Set(DATA.items.filter(i=>i.active).map(i=>i.employment_type))]
+      .map(c=>({k:c,label:EMP_EN[c]||c}))), "emp");
+
+  // 畳んだ状態でも絞り込み中だと分かるようにする
+  const on = [];
+  if(F.cat !== "all") on.push(CAT_EN[F.cat] || F.cat);
+  if(F.emp !== "all") on.push(EMP_EN[F.emp] || F.emp);
+  document.getElementById("moresum").textContent =
+    on.length ? `Filters: ${on.join(" · ")}` : "More filters";
+}
+
+function bar(label, n, max, green){
+  const w = max ? Math.round(n/max*100) : 0;
+  return `<div class="bar"><div class="lb">${esc(label)}</div>
+    <div class="tr"><div class="fl ${green?"g":""}" style="width:${w}%"></div></div>
+    <div class="vn">${n}</div></div>`;
+}
+
+function renderTrends(){
+  const all = DATA.items, act = all.filter(i=>i.active);
+  const bands = [
+    ["No English test", i => !i.eng_level && !i.eng_toeic],
+    ["TOEIC ≤ 500",     i => i.eng_toeic && i.eng_toeic <= 500],
+    ["TOEIC 501–600",   i => i.eng_toeic > 500 && i.eng_toeic <= 600],
+    ["TOEIC 601–700",   i => i.eng_toeic > 600 && i.eng_toeic <= 700],
+    ["TOEIC 700+",      i => i.eng_toeic > 700],
+  ];
+  const bc = bands.map(([l,f]) => [l, all.filter(f).length]);
+  const bmax = Math.max(...bc.map(x=>x[1]), 1);
+
+  const cats = {};
+  all.forEach(i => cats[i.category] = (cats[i.category]||0)+1);
+  const cc = Object.entries(cats).sort((a,b)=>b[1]-a[1]);
+  const cmax = Math.max(...cc.map(x=>x[1]), 1);
+
+  const paid = all.filter(i=>i.salary_total).map(i=>i.salary_total).sort((a,b)=>a-b);
+  const med  = paid.length ? paid[Math.floor(paid.length/2)] : null;
+
+  // TOEIC のしきい値ごとに「応募できる求人が何件増えるか」
+  const reach = [500,600,700,800].map(t =>
+    [`TOEIC ${t}`, all.filter(i => !i.eng_toeic || i.eng_toeic <= t).length]);
+  const rmax = Math.max(...reach.map(x=>x[1]), 1);
+
+  document.getElementById("trends").innerHTML = `
+    <div class="panel">
+      <h3>How far each TOEIC score reaches</h3>
+      <p class="hint">Number of postings (all time, including closed) you could apply to
+      at each score. This is the target-setting chart.</p>
+      ${reach.map(([l,n]) => bar(l, n, rmax, true)).join("")}
+    </div>
+    <div class="panel">
+      <h3>English requirement spread</h3>
+      <p class="hint">All ${all.length} postings collected so far.</p>
+      ${bc.map(([l,n]) => bar(l, n, bmax, l==="No English test")).join("")}
+    </div>
+    <div class="panel">
+      <h3>By job type</h3>
+      <p class="hint">Which fields actually hire at Yokota.</p>
+      ${cc.map(([c,n]) => bar(CAT_EN[c]||c, n, cmax)).join("")}
+    </div>
+    <div class="panel">
+      <h3>Pay</h3>
+      <p class="hint">Monthly salary (base + regional allowance) for full-time postings.</p>
+      <div style="font-size:26px;font-weight:700;margin:4px 0">${med?yen(med):"—"}</div>
+      <div style="font-size:12.5px;color:var(--sub)">
+        median of ${paid.length} postings${paid.length?` · range ${yen(paid[0])} – ${yen(paid[paid.length-1])}`:""}
+      </div>
+    </div>
+    <div class="note">
+      Currently <b>${act.length}</b> open · <b>${all.length-act.length}</b> closed ·
+      <b>${all.length}</b> collected in total.<br>
+      The longer this runs, the better the picture gets — it shows which score
+      unlocks how much of the market.
+    </div>`;
+}
+
+document.querySelector(".tabs").onclick = e => {
+  const t = e.target.closest(".tab"); if(!t) return;
+  document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("on", x===t));
+  ["jobs","trends","about"].forEach(v =>
+    document.getElementById("view-"+v).hidden = (v !== t.dataset.tab));
+  if(t.dataset.tab === "trends") renderTrends();
+};
+
+fetch("jobs.json?t=" + Date.now())
+  .then(r => r.json())
+  .then(d => {
+    DATA = d;
+    const dt = new Date(d.updated);
+    document.getElementById("meta").textContent =
+      `${d.counts.active} open · updated ${dt.toLocaleDateString("en-GB",{day:"numeric",month:"short"})}`;
+    render();
+  })
+  .catch(() => {
+    document.getElementById("meta").textContent = "Could not load data";
+    document.getElementById("list").innerHTML =
+      '<div class="empty">Could not load jobs.json.</div>';
+  });
+
+if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+</script>
+</body>
+</html>
