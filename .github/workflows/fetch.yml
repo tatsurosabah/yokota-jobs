@@ -25,6 +25,10 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: 依存パッケージ
+        # 374 FSS の英語版求人告知(PDF)の読み取りに使う
+        run: python3 -m pip install --quiet pypdf
+
       - name: 求人取得
         run: python3 fetch_jobs.py
 

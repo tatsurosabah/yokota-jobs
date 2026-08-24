@@ -249,6 +249,127 @@ def parse_age(s):
     return (int(m.group(1)), None) if m else (None, None)
 
 
+def parse_grade(description):
+    """LMO の仕事の内容から等級を抜く。'（1表4等級）' -> '1-4'
+
+    FSS の英語版告知と突き合わせる鍵になる。
+    """
+    m = re.search(r"[（(]\s*(\d)\s*表\s*0*(\d+)\s*等級", description or "")
+    return f"{m.group(1)}-{int(m.group(2))}" if m else ""
+
+
+def parse_office(description):
+    """'【職種】会計技術職（JBB）（1表4等級）' の JBB を取る。
+
+    同じ職種・同じ等級の求人が複数あるとき、配属先で区別するのに使う。
+    書かれていない求人も多いので、無ければ空。
+    """
+    m = re.search(r"【職種[】）]\s*[^（(]*[（(]\s*([A-Za-z0-9\-]{2,10})\s*[）)]", description or "")
+    return m.group(1).strip() if m else ""
+
+
+def attach_fss(items):
+    """FSS の英語版求人告知を LMO の求人に紐付ける。
+
+    LMO はウェブ求人（日本語のみ）、FSS は基地側が出す日英の告知PDF。
+    同じ求人が両方に載るので、職種名＋等級（＋事務所コード）で突き合わせる。
+    突き合わない FSS 側の求人も、応募先として実在するので独立した項目として残す。
+    """
+    try:
+        import fetch_fss
+    except ImportError:
+        sys.stderr.write("fetch_fss.py が読めないため英語版告知はスキップします\n")
+        return items, None
+
+    try:
+        fss = fetch_fss.fetch()
+    except SystemExit as e:
+        sys.stderr.write(f"英語版告知の取得に失敗(LMOのみで続行): {e}\n")
+        return items, None
+    except Exception as e:
+        sys.stderr.write(f"英語版告知の取得に失敗(LMOのみで続行): {e}\n")
+        return items, None
+
+    # 突き合わせ表。職種名+等級+事務所 → 職種名+等級 → 職種名 の順に緩める
+    buckets = {}
+    for f in fss["items"]:
+        t = _nkey(f["title_ja"])
+        for k in ((t, f["grade"], _nkey(f.get("office"))), (t, f["grade"], ""), (t, "", "")):
+            buckets.setdefault(k, []).append(f)
+
+    used = set()
+    matched = 0
+    for it in items:
+        desc = it.get("description", "")
+        grade = parse_grade(desc)
+        office = parse_office(desc)
+        t = _nkey(it.get("title"))
+        hit = None
+        for k in ((t, grade, _nkey(office)), (t, grade, ""), (t, "", "")):
+            for cand in buckets.get(k, []):
+                if id(cand) not in used:
+                    hit = cand
+                    break
+            if hit:
+                break
+        it["grade"] = grade
+        if hit:
+            used.add(id(hit))
+            matched += 1
+            it.update({
+                "title_en_official": hit["title_en_official"],
+                "org_ja":            hit["org_ja"],
+                "org_en":            hit["org_en"],
+                "lpl":               hit["lpl"],
+                "internal_only":     hit["internal_only"],
+                "posting_lang":      hit.get("posting_lang") or "",
+                "desc_en_official":  hit.get("desc_en_official") or "",
+                "sources":           ["LMO", "FSS"],
+            })
+            if not it.get("grade"):
+                it["grade"] = hit["grade"]
+        else:
+            it.setdefault("org_ja", "")
+            it.setdefault("org_en", "")
+            it.setdefault("lpl", None)
+            it.setdefault("internal_only", False)
+            it.setdefault("posting_lang", "")
+            it.setdefault("desc_en_official", "")
+            it["sources"] = ["LMO"]
+
+    # FSS にしか無い求人（LMOのウェブには出ていない、または内部限定）を足す
+    extra = 0
+    for f in fss["items"]:
+        if id(f) in used:
+            continue
+        extra += 1
+        items.append({
+            "id": f"FSS-{_nkey(f['title_en_official'])[:24]}-{f['grade']}",
+            "title": f["title_ja"] or f["title_en_official"],
+            "title_en_official": f["title_en_official"],
+            "org_ja": f["org_ja"], "org_en": f["org_en"],
+            "grade": f["grade"], "lpl": f["lpl"],
+            "eng_toeic": f.get("lpl_toeic"), "eng_level": f["lpl"] or None,
+            "internal_only": f["internal_only"],
+            "posting_lang": f.get("posting_lang") or "",
+            "desc_en_official": f.get("desc_en_official") or "",
+            "contract": f.get("contract_fss") or "",
+            "employment_type": "regular",
+            "category": "other",
+            "sources": ["FSS"],
+            "posted": "", "description": "", "requirements": "",
+            "salary_raw": "", "salary_total": None, "salary_hourly": None,
+            "jp_mentioned": False, "jp_note": "",
+        })
+
+    print(f"  LMOと突き合わせ: {matched}件 / FSS のみ: {extra}件")
+    return items, fss
+
+
+def _nkey(s):
+    return re.sub(r"\s|　", "", (s or "")).lower()
+
+
 def employment_type(employment, seiri_no):
     letter = seiri_no[3:4].upper() if len(seiri_no) > 3 else ""
     if "時給制臨時" in employment or letter == "H":
@@ -530,6 +651,9 @@ def merge(old, new_items, do_translate=True):
             "active": len(active),
             "archived": len(items) - len(active),
             "total": len(items),
+            "english_posting": sum(1 for i in active if i.get("posting_lang") == "en"),
+            "bilingual_posting": sum(1 for i in active if i.get("posting_lang") == "bilingual"),
+            "open_to_public": sum(1 for i in active if not i.get("internal_only")),
         },
         "items": items,
     }
@@ -550,7 +674,14 @@ def main():
             sys.stderr.write(f"既存 jobs.json の読み込みに失敗(新規作成します): {e}\n")
 
     new_items = fetch_all(limit=limit)
+
+    print("\n英語版求人告知(374 FSS)を取得中...")
+    new_items, fss = attach_fss(new_items)
+
     data = merge(old, new_items, do_translate=do_translate)
+    if fss:
+        data["fss_source_url"] = fss.get("source_url", "")
+        data["fss_updated"] = fss.get("updated", "")
 
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
