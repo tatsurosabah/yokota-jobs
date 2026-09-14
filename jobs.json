@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07T11:37:21+09:00",
+ "updated": "2026-09-14T12:07:02+09:00",
  "source": "LMO 駐留軍等労働者労務管理機構 / 横田支部",
  "source_url": "https://www.lmo.go.jp/recruitment/",
  "counts": {
@@ -15,11 +15,11 @@
    "id": "031M26090305",
    "title": "補給専門職",
    "position": "一般従業員",
-   "description": "【職種】補給専門職（1表4等級）\n★空席広報番号欄に「整理番号」を記入すること。\n軍支援中隊の各施設に搬入される様々な備品・機材・資材等の受入れ、配送手配等を含む管理全般を行う。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】補給専門職（1表4等級）\n【職種番号】#0614\n★空席広報番号欄に「整理番号」を記入すること。\n軍支援中隊の各施設に搬入される様々な備品・機材・資材等の受入れ、配送手配等を含む管理全般を行う。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用 (採用後６ヶ月の試用期間）",
    "age": "18歳～61歳",
-   "requirements": "【必要な経験等】\n・1年以上の事務管理職の職務経験\n・データ管理や更新等を含むOAソフトを使用したコンピューター作業のスキル\n・約22～23キロ程度の物品や機器を持ち上げたり、運んだりできる身体能力\n【必要な免許】＊証明書のコピー要添付\n・現在有効な普通自動車運転免許証 （AT限定は不可）\n・現在有効なフォークリフトの講習修了証\n・現在有効な中型（１種）免許証\n【語学能力レベル：3】（要証明書コピー添付）\nTOEIC 730点～、ALCPT 90点～（2016年以前であれば76点）、TOEFL(PBT) 550点～、TOEFL(CBT) 210点～、TOEFL(iBT) 80点～、CASEC 870点～、英検準1級以上",
+   "requirements": "【必要な経験等】\n・1年以上の事務管理職の職務経験\n・データ管理や更新等を含むOAソフトを使用したコンピューター作業のスキル\n・約22～23キロ程度の物品や機器を持ち上げたり、運んだりできる身体能力\n【必要な免許】＊証明書のコピー要添付\n・現在有効な普通自動車運転免許証 （AT限定は不可）\n・現在有効なフォークリフトの講習修了証\n・現在有効な中型（１種）免許証\n【語学能力レベル：2】（要証明書コピー添付）\nTOEIC 550点～、ALCPT 75点～（2016年以前であれば66点）、TOEFL(PBT) 460点～、TOEFL(CBT) 140点～、TOEFL(iBT) 50点～、CASEC 560点～、英検2級以上",
    "hours": "週5日/40時間 07:00－16:00\n＊スケジュールは変更される場合があります。",
    "wage_type": "日給月給制",
    "salary_raw": "基本給242,000円地域手当38,720円",
@@ -41,9 +41,9 @@
    "salary_allowance": 38720,
    "salary_total": 280720,
    "salary_hourly": null,
-   "eng_level": 3,
-   "eng_toeic": 730,
-   "eng_raw": "【語学能力レベル：3】（要証明書コピー添付）\nTOEIC 730点～、ALCPT 90点～（2016年以前であれば76点）、TOEFL(PBT) 550点～、TOEFL(CBT) 210点～、TOEFL(iBT) 80点～、CASEC 870点～、英検準1級以上",
+   "eng_level": 2,
+   "eng_toeic": 550,
+   "eng_raw": "【語学能力レベル：2】（要証明書コピー添付）\nTOEIC 550点～、ALCPT 75点～（2016年以前であれば66点）、TOEFL(PBT) 460点～、TOEFL(CBT) 140点～、TOEFL(iBT) 50点～、CASEC 560点～、英検2級以上",
    "jp_mentioned": false,
    "jp_note": "",
    "age_min": 18,
@@ -61,10 +61,9 @@
     "FSS"
    ],
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Supply Specialist",
-   "description_en": "[Job type] Supply specialist (1 table 4 grades)\n★Enter the \"reference number\" in the vacancy publicity number column.\nResponsible for general management, including receiving and arranging delivery of various supplies, equipment, materials, etc. delivered to each military support company facility.\n★Civil history column No. 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Supply Specialist"
   },
   {
    "id": "031M26090304",
@@ -114,7 +113,7 @@
     "LMO"
    ],
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "accounting position",
    "description_en": "[Job type] Accounting position (JRGC) (1 table 6 grade)\n(Target level 1 table 6th grade *1 table 5th grade is the job type as a trainee)\nIf you are hired as a trainee, you can be promoted after receiving training to the target level. Depending on the applicant's qualifications and experience, the applicant may be selected for grade 1/6 of the target level.\n★Enter the \"reference number\" in the vacancy publicity number column.\nPlanning and directing the overall accounting operations of the department in charge at an organization related to the U.S. Forces in Japan, and management work to ensure compliance with related laws and accounting standards.\n・Planning, organizing, and directing and supervising business plans within the department in accordance with U.S. accounting standards and laws and regulations.\n・Provide specialized guidance and support regarding accounting principles, policies, and procedures to subordinates and related departments.\n・Auditing various accounting documents, ledgers, reports, etc. to ensure accuracy, timeliness, and compliance with regulations of accounting processing\n・Selection of candidates for filling vacancies and personnel promotions in the department in charge\n★Civil history column No. 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
@@ -167,7 +166,7 @@
     "LMO"
    ],
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "fire protection inspection position",
    "description_en": "[Job type] Fire protection inspector (3rd table, 4th grade) / Firefighter investigator (3rd table, 3rd grade) *Applicants will be hired for one of the job categories depending on their qualifications/experience, etc.\n★Enter the \"reference number\" in the vacancy publicity number column.\nConduct regular fire safety inspections of facilities and satellite areas where fire hazards are of high severity, predictability, and are difficult to recognize. Create and manage documents such as facility fire prevention schedules and building files. Reviews and recommends changes and additions to technical plans and specifications for new construction, renovations, and additions to existing structures, ensuring plans have appropriate fire protection requirements in accordance with agency codes, the National Fire Protection Association (NFPA) Building Code, and other applicable guidelines. Attends fire department roll calls and staff meetings. Translate fire prevention communications to Japanese government representatives and contractors.\n★Civil history column No. 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
@@ -220,7 +219,7 @@
     "LMO"
    ],
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Insect control",
    "description_en": "[Job type] Pest control worker (2nd table, 4th grade) *Target position: Pest control machine operator (2nd table, 5th grade)\nThis position is a training position and the target position is Pest Control Machine Operator (Grade 2 Table 5). Successful candidates must successfully complete the required pest control training course and hold a valid training certificate to be considered for the target position. Promotions are made at the request of the supervisor.\n★Enter the \"reference number\" in the vacancy publicity number column.\nConduct regular and irregular pest inspections of facilities, industrial areas, food facilities, personnel quarters, and airfield facilities. Perform pest control operations using traps, insecticides, repellents, physical control, habitat modification, and other approved methods. Preventing bird and wildlife aircraft collision hazards (BASH), including surveys, repellent techniques, and live animal trapping. Manage hazardous chemical storage, pesticide inventory, and disposal. Perform other tasks related to the assigned duties.\n★Civil history column No. 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
@@ -273,7 +272,7 @@
     "LMO"
    ],
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Cook",
    "description_en": "[Occupation] Cook (2 tables, 5 grades)\n★Be sure to enter the \"reference number\" in the vacancy publicity number column.\nCooking various menus based on standard recipes, controlling quality and temperature of ingredients, and adjusting time\nUtilize, maintain, and clean kitchen equipment and maintain workplace environment in accordance with health and safety regulations.\nClearing and cleaning tables as necessary, participating in training aimed at improving work skills, etc.\n★In the criminal history column No. 12 on the first page of your resume, write [NONE] if you do not have one.\nAlso, don't forget to write the signature of job seeker number 17 on the 4th sheet.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements of Various Agencies\nScope of work location change: Other U.S. military facilities in Japan"
@@ -326,7 +325,7 @@
     "LMO"
    ],
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "maintenance mechanic",
    "description_en": "[Job type] Maintenance mechanic (2nd table 6th grade) [Vacancy PR number] MLA (IV) 26-217-01\n★Write the \"reference number\" in the blank space at the top of your resume.\n*You may be hired from a lower grade (grade 2, table 5) depending on your qualifications and experience.\n*If you have applied for MLA(IV)26-217 once, there is no need to reapply.\nLead or assist in the maintenance, repair, or replacement of air conditioning and ventilation systems. For individual air conditioners, we perform everything from checking the condition using a tester to disassembling and reassembling parts, gas welding, refrigerant recovery, and issuing certificates. Central air conditioners maintain safe operation by managing equipment operations, cleaning cooling towers and underground water tanks, adding chemicals, and replacing various filters and V-belts. Attends daily meetings, escorts and supervises contractors, and assists with plumbing shop operations. In addition to cleaning the shop, organizing tools, and taking inventory on a daily basis, they also pick up trash, mow the lawn, and remove snow within the facility depending on the season, and undergo mandatory training every year.\n★If there is no criminal history column in No. 12 on the first page of your resume, write [NONE].\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan\n[Wage] 2nd table 6th grade: Basic salary 260,400 yen Regional allowance 52,080 yen / 2nd table 5th grade: Basic salary 251,700 yen Regional allowance 50,340 yen"
@@ -335,7 +334,7 @@
    "id": "031H26083101",
    "title": "カウンター・アテンダント",
    "position": "一般従業員",
-   "description": "【職種】カウンター・アテンダント（2表3等級）\n★空席広報番号欄に「整理番号」を記入すること。\n個々の注文品目の食物を直接台所から運んだり、又は客の指示により、スチームテーブルから注文したりして、ランチカウンター又はカフェテリアにおいて客に食事を供する。習得している作り方や方法により、又は指示に従ってアイスクリームサンデー、加工乳、ソーダ水、果汁等の軽い飲み物及びアイスクリーム類を準備し供する。\n調味料入れを満たし、皿を並べ、設備を清潔にし、整え、トースト、ホットケーキ、ワッフル、卵、サンドウィッチ又は飲み物を作りお客から料金を受け取り、つり銭を客に渡し、食券を発行して帳場に渡す等のこともある。キャンディ、ガム、煙草類の販売等の他の種々の仕事をすることもある。\n割り当てられた他の関連的又は附随的職務を行う。\n★履歴書1枚目12番犯罪歴欄、ない場合は【無し／NONE】と記入。\nまた4枚目17番求職者の署名を忘れず記入。\n職種の変更の範囲：諸機関労務協約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設\n※当該雇用は更新され若しくは更新されない場合があり、更新される場合においても最初の採用から通算した雇用期間は3年間を超えることはない、更新については、次のいずれかまたは複数の基準により判断されます。①当該雇用期間満了時の業務量②従事している業務の進捗状況③米軍の運営状況④当該従業員の勤務成績、態度⑤当該従業員の能力",
+   "description": "【職種】カウンター・アテンダント（2表3等級）\n【職種番号】#2039\n★空席広報番号欄に「整理番号」を記入すること。\n個々の注文品目の食物を直接台所から運んだり、又は客の指示により、スチームテーブルから注文したりして、ランチカウンター又はカフェテリアにおいて客に食事を供する。習得している作り方や方法により、又は指示に従ってアイスクリームサンデー、加工乳、ソーダ水、果汁等の軽い飲み物及びアイスクリーム類を準備し供する。\n調味料入れを満たし、皿を並べ、設備を清潔にし、整え、トースト、ホットケーキ、ワッフル、卵、サンドウィッチ又は飲み物を作りお客から料金を受け取り、つり銭を客に渡し、食券を発行して帳場に渡す等のこともある。キャンディ、ガム、煙草類の販売等の他の種々の仕事をすることもある。\n割り当てられた他の関連的又は附随的職務を行う。\n★履歴書1枚目12番犯罪歴欄、ない場合は【無し／NONE】と記入。\nまた4枚目17番求職者の署名を忘れず記入。\n職種の変更の範囲：諸機関労務協約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設\n※当該雇用は更新され若しくは更新されない場合があり、更新される場合においても最初の採用から通算した雇用期間は3年間を超えることはない、更新については、次のいずれかまたは複数の基準により判断されます。①当該雇用期間満了時の業務量②従事している業務の進捗状況③米軍の運営状況④当該従業員の勤務成績、態度⑤当該従業員の能力",
    "location": "横田飛行場（東京都福生市）",
    "employment": "時給制臨時従業員（雇用期間は1年以内、更新される場合有）",
    "age": "",
@@ -379,16 +378,15 @@
     "LMO"
    ],
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "counter attendant",
-   "description_en": "[Job type] Counter attendant (2 tables, 3 grades)\n★Enter the \"reference number\" in the vacancy publicity number column.\nFood for individual orders is brought directly from the kitchen or ordered from a steam table at the direction of the customer and served to the customer at the lunch counter or cafeteria. Prepare and serve ice cream sundaes, light drinks such as processed milk, soda water, fruit juice, etc., and ice creams using learned methods or according to instructions.\nYou may also fill condiment containers, arrange plates, clean and set up equipment, make toast, pancakes, waffles, eggs, sandwiches, or drinks, collect payment from customers, give change to customers, issue meal tickets and hand them to the counter. They may also do a variety of other jobs, such as selling candy, gum, and cigarettes.\nPerforms other related or incidental duties as assigned.\n★In the criminal history column No. 12 on the first page of your resume, write [NONE] if you do not have one.\nAlso, don't forget to write the signature of job seeker number 17 on the 4th sheet.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements of Various Agencies\nScope of work location change: Other U.S. military facilities in Japan\n*Employment may or may not be renewed, and even if renewed, the total employment period from the first hire will not exceed three years. Renewal will be determined based on one or more of the following criteria: ① Work load at the end of the relevant employment period ② Progress of the work being engaged in ③ U.S. military operational status ④ Work performance and attitude of the employee ⑤ Abilities of the employee"
+   "title_en": "counter attendant"
   },
   {
    "id": "031M26082009",
    "title": "従業員管理関係調整職",
    "position": "一般従業員",
-   "description": "【職種】従業員管理関係調整職（目標レベル1表6等級 ※1表5等級は訓練生としての職種）\n訓練生から採用された場合には、目標レベルの訓練を受けた後、昇格する事が可能です。応募者の資格や経験等によ っては、目標レベルの1表6等級のとして採用される場合があります。\n★空席広報番号欄に「整理番号」を記入すること。\n基地の日本人従業員向け労務プログラムに関する職務を行う。規律、苦情、申し立て、監督者と従業員の関係改善や効果的な労働が行えるよう促す等、従業員管理関係全般に関する指導、助言、問題処理を行う。また永年勤続表彰や褒章に関する事務管理を行う。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設\n【語学能力級レベル:3】*要証明書コピー添付\nTOEIC 730点、ALCPT 90点(2016年2月8日以前であれば76点以上）、TOEFL(PBT) 550点、TOEFL(CBT) 210点、TOEFL(iBT) 80点、CASEC 870点、英検準１級 ＊証明書のコピー添付が無い場合選考の対象となりません。",
+   "description": "【職種】従業員管理関係調整職（目標レベル1表6等級 ※1表5等級は訓練生としての職種）\n訓練生から採用された場合には、目標レベルの訓練を受けた後、昇格する事が可能です。応募者の資格や経験等によ っては、目標レベルの1表6等級のとして採用される場合があります。\n【職種番号】#0066\n★空席広報番号欄に「整理番号」を記入すること。\n基地の日本人従業員向け労務プログラムに関する職務を行う。規律、苦情、申し立て、監督者と従業員の関係改善や効果的な労働が行えるよう促す等、従業員管理関係全般に関する指導、助言、問題処理を行う。また永年勤続表彰や褒章に関する事務管理を行う。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設\n【語学能力級レベル:3】*要証明書コピー添付\nTOEIC 730点、ALCPT 90点(2016年2月8日以前であれば76点以上）、TOEFL(PBT) 550点、TOEFL(CBT) 210点、TOEFL(iBT) 80点、CASEC 870点、英検準１級 ＊証明書のコピー添付が無い場合選考の対象となりません。",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用(採用後6ヶ月の試用期間）",
    "age": "18歳～61歳",
@@ -432,10 +430,9 @@
     "LMO"
    ],
    "first_seen": "2026-08-25",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Employee management relations coordinator",
-   "description_en": "[Job type] Employee management relations coordinator (Target level 1 table 6 grade *1 table 5 grade is the job type as a trainee)\nIf you are hired as a trainee, you can be promoted after receiving training to the target level. Depending on the applicant's qualifications and experience, the applicant may be hired at grade 1/6, which is the target level.\n★Enter the \"reference number\" in the vacancy publicity number column.\nPerforms duties related to labor programs for Japanese employees on base. Provides guidance, advice, and problem-solving related to employee management in general, including discipline, complaints, complaints, improving relationships between supervisors and employees, and encouraging effective work. Also manages affairs related to long service awards and awards.\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan\n[Language proficiency level: 3] *Certificate copy required\nTOEIC 730 points, ALCPT 90 points (76 points or higher if before February 8, 2016), TOEFL (PBT) 550 points, TOEFL (CBT) 210 points, TOEFL (iBT) 80 points, CASEC 870 points, EIKEN Pre-1st grade *If a copy of the certificate is not attached, the applicant will not be considered for selection."
+   "title_en": "Employee management relations coordinator"
   },
   {
    "id": "031M26082008",
@@ -494,7 +491,7 @@
    "id": "031M26082005",
    "title": "会計技術職",
    "position": "一般従業員",
-   "description": "【職種】会計技術職 (JRGC) （1表4等級）\n★空席広報番号欄に「整理番号」を記入すること。\n在日米軍関連機関にて複式簿記を用いた会計データ入力・調査・修正、および各種問い合わせ対応\n・複式簿記を用いた日常的な会計伝票の審査・仕訳入力およびデータ登録\n・登録された会計データのチェック、必要に応じたデータの修正・更新\n・メールや電話を用いた、財務担当者や国内外の顧客との日常的な連絡・調整\n・会計システムへの入力方法に関する問い合わせ対応、および各種会計書類のファイリング\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】会計技術職 (JRGC) （1表4等級）\n【職種番号】#0007\n★空席広報番号欄に「整理番号」を記入すること。\n在日米軍関連機関にて複式簿記を用いた会計データ入力・調査・修正、および各種問い合わせ対応\n・複式簿記を用いた日常的な会計伝票の審査・仕訳入力およびデータ登録\n・登録された会計データのチェック、必要に応じたデータの修正・更新\n・メールや電話を用いた、財務担当者や国内外の顧客との日常的な連絡・調整\n・会計システムへの入力方法に関する問い合わせ対応、および各種会計書類のファイリング\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用 (採用後６ヶ月間は試用期間）",
    "age": "18歳～61歳",
@@ -540,16 +537,15 @@
     "FSS"
    ],
    "first_seen": "2026-08-25",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Accounting Technician",
-   "description_en": "[Job type] Accounting engineer (JRGC) (1 table, 4 grades)\n★Enter the \"reference number\" in the vacancy publicity number column.\nEntering, investigating, and correcting accounting data using double-entry bookkeeping at U.S. military-related organizations in Japan, and responding to various inquiries.\n・Examination of daily accounting documents using double-entry bookkeeping, journal entry, and data registration\n・Checking registered accounting data, correcting/updating data as necessary\n・Daily communication and coordination with financial personnel and domestic and international customers using email and telephone.\n・Responding to inquiries regarding input methods into accounting systems and filing of various accounting documents\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Accounting Technician"
   },
   {
    "id": "031M26082004",
    "title": "電線工",
    "position": "一般従業員",
-   "description": "【職種】電線工（2表7等級）\n★空席広報番号欄に「整理番号」を必ず記入すること。\n架空や地下の配電と制御システムの延長、交換などの保守、修理、設置を行う。電柱を立て、整列させ、電柱に登り、クロスアーム、ブラケット、真鍮、絶縁体、カットアウトスイッチを設置、交換する。滑走路、誘導路、進入路照明、絶縁変圧器、調整器／変圧器など、飛行場の照明や設備を保管庫で維持、管理する。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し】と必ず記入。\nまた4枚目17番求職者の署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】電線工（2表7等級）\n【職種番号】#2090\n★空席広報番号欄に「整理番号」を必ず記入すること。\n架空や地下の配電と制御システムの延長、交換などの保守、修理、設置を行う。電柱を立て、整列させ、電柱に登り、クロスアーム、ブラケット、真鍮、絶縁体、カットアウトスイッチを設置、交換する。滑走路、誘導路、進入路照明、絶縁変圧器、調整器／変圧器など、飛行場の照明や設備を保管庫で維持、管理する。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し】と必ず記入。\nまた4枚目17番求職者の署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用（採用後6ヶ月は試用期間）",
    "age": "18歳～61歳",
@@ -595,16 +591,15 @@
     "FSS"
    ],
    "first_seen": "2026-08-25",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "electric wire worker",
-   "description_en": "[Occupation] Wire worker (2nd table 7th grade)\n★Be sure to enter the \"reference number\" in the vacancy publicity number column.\nPerform maintenance, repair, and installation, including extensions and replacements, of overhead and underground power distribution and control systems. Erect and align poles, climb poles, and install and replace cross arms, brackets, brass, insulators, and cutout switches. Maintain and manage airfield lighting and equipment in storage, including runway, taxiway, and approach lighting, isolation transformers, and regulators/transformers.\n★If there is no criminal record, be sure to write [None] in the criminal history section on the first page of your resume.\nAlso, don't forget to fill out the signature of job seeker No. 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "electric wire worker"
   },
   {
    "id": "031M26082003",
    "title": "エンジニアリング専門職（適応専門業務）",
    "position": "一般従業員",
-   "description": "【職種】エンジニアリング専門職 （建築） （１表7等級）\n★空席広報番号欄に「整理番号」を記入すること。\n横田基地内の建物や施設の設計、施工管理、完成・予算の精算までの一連のプロジェクトへの管理・サポートを行う。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】エンジニアリング専門職 （建築） （１表7等級）\n【職種番号】#0544\n★空席広報番号欄に「整理番号」を記入すること。\n横田基地内の建物や施設の設計、施工管理、完成・予算の精算までの一連のプロジェクトへの管理・サポートを行う。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用 (採用後６ヶ月の試用期間）",
    "age": "18歳～61歳",
@@ -648,16 +643,15 @@
     "LMO"
    ],
    "first_seen": "2026-08-25",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Engineering profession (adaptive specialist work)",
-   "description_en": "[Job type] Engineering specialist (architecture) (1 table 7 grade)\n★Enter the \"reference number\" in the vacancy publicity number column.\nWe will manage and support a series of projects from the design of buildings and facilities within Yokota Air Base, construction management, completion, and budget settlement.\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Engineering profession (adaptive specialist work)"
   },
   {
    "id": "031M26082002",
    "title": "塗装工",
    "position": "一般従業員",
-   "description": "【職種】塗装工（家具メンテナンス）（2表6等級）\n★空席広報番号欄に「整理番号」を記入すること。\nシンナー、下地用ステイン、ニス、ラッカー、塗料、プライマー等を使用してタッチアップ、ニス、ステイン等の塗装作業、仕上げ材の調製、調合を行う。状況に応じて家具、家電製品等の移動を行う。その他、指示された関連業務を行う。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】塗装工（家具メンテナンス）（2表6等級）\n【職種番号】#2206\n★空席広報番号欄に「整理番号」を記入すること。\nシンナー、下地用ステイン、ニス、ラッカー、塗料、プライマー等を使用してタッチアップ、ニス、ステイン等の塗装作業、仕上げ材の調製、調合を行う。状況に応じて家具、家電製品等の移動を行う。その他、指示された関連業務を行う。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用 (採用後6ヶ月は試用期間）",
    "age": "18歳～61歳",
@@ -703,10 +697,9 @@
     "FSS"
    ],
    "first_seen": "2026-08-25",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Painter",
-   "description_en": "[Job type] Painter (furniture maintenance) (2 tables, 6 grades)\n★Enter the \"reference number\" in the vacancy publicity number column.\nPerform touch-up work using thinner, base stain, varnish, lacquer, paint, primer, etc., paint work such as varnish and stain, and prepare and mix finishing materials. Move furniture, home appliances, etc. depending on the situation. Perform other related duties as directed.\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Painter"
   },
   {
    "id": "031I26082007",
@@ -820,7 +813,7 @@
    "id": "031H26082006",
    "title": "ウエイター・ウエイトレス",
    "position": "一般従業員",
-   "description": "【職種】ウエイター・ウエイトレス（2表2等級）\n★空席広報番号欄に「整理番号」を記入すること。\nテーブルのセッティング。お客様をお迎えし注文を取り、料理やドリンクを運ぶ。レジを操作し会計をおこなう。床やカウンター等の清掃業務。\n★履歴書1枚目12番犯罪歴欄、ない場合は【無し／NONE】と記入。\nまた4枚目17番求職者の署名を忘れず記入。\n職種の変更の範囲：諸機関労務協約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設\n※当該雇用は更新され若しくは更新されない場合があり、更新される場合においても最初の採用から通算した雇用期間は3年間を超えることはない、更新については、次のいずれかまたは複数の基準により判断されます。①当該雇用期間満了時の業務量②従事している業務の進捗状況③米軍の運営状況④当該従業員の勤務成績、態度⑤当該従業員の能力",
+   "description": "【職種】ウエイター・ウエイトレス（2表2等級）\n【職種番号】#2143\n★空席広報番号欄に「整理番号」を記入すること。\nテーブルのセッティング。お客様をお迎えし注文を取り、料理やドリンクを運ぶ。レジを操作し会計をおこなう。床やカウンター等の清掃業務。\n★履歴書1枚目12番犯罪歴欄、ない場合は【無し／NONE】と記入。\nまた4枚目17番求職者の署名を忘れず記入。\n職種の変更の範囲：諸機関労務協約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設\n※当該雇用は更新され若しくは更新されない場合があり、更新される場合においても最初の採用から通算した雇用期間は3年間を超えることはない、更新については、次のいずれかまたは複数の基準により判断されます。①当該雇用期間満了時の業務量②従事している業務の進捗状況③米軍の運営状況④当該従業員の勤務成績、態度⑤当該従業員の能力",
    "location": "多摩サービス補助施設（東京都多摩市）",
    "employment": "時給制臨時雇用 （雇用期間:１年以内、更新される場合有）",
    "age": "",
@@ -866,10 +859,9 @@
     "FSS"
    ],
    "first_seen": "2026-08-25",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Waiter / Waitress",
-   "description_en": "[Occupation] Waiter/Waitress (2 tables, 2nd grade)\n★Enter the \"reference number\" in the vacancy publicity number column.\ntable setting. Greets customers, takes orders, and delivers food and drinks. Operate the cash register and make payments. Cleaning of floors, counters, etc.\n★In the criminal history column No. 12 on the first page of your resume, write [NONE] if you do not have any.\nAlso, don't forget to write the signature of job seeker number 17 on the 4th sheet.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements of Various Agencies\nScope of work location change: Other U.S. military facilities in Japan\n*The employment may or may not be renewed, and even if it is renewed, the total employment period from the first hire will not exceed three years. Renewal will be determined based on one or more of the following criteria: ① Work load at the end of the relevant employment period ② Progress of the work being engaged in ③ U.S. military operational status ④ Work performance and attitude of the employee ⑤ Abilities of the employee"
+   "title_en": "Waiter / Waitress"
   },
   {
    "id": "031H26082001",
@@ -1074,7 +1066,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-17",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Security Guard"
   },
@@ -1128,7 +1120,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-17",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Accounting Technician"
   },
@@ -1136,7 +1128,7 @@
    "id": "031M26080606",
    "title": "会計技術職",
    "position": "一般従業員",
-   "description": "【職種】会計技術職（JRHB）（1表4等級）\n★空席広報番号欄に「整理番号」を記入すること。\n在日米軍関連機関での、各種支払い処理や伝票監査、データ照合などの会計事務\n・契約に基づく支払い請求書や受領報告書のシステム入力・エラー処理\n・支払伝票の監査（法令順守状況、記載内容の正確性、不備の有無のチェック）\n・公共料金などの各種経費の請求書審査・支払い手続き\n・取引履歴と未決済リストのデータ照合・整合性チェック\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】会計技術職（JRHB）（1表4等級）\n【職種番号】#0007\n★空席広報番号欄に「整理番号」を記入すること。\n在日米軍関連機関での、各種支払い処理や伝票監査、データ照合などの会計事務\n・契約に基づく支払い請求書や受領報告書のシステム入力・エラー処理\n・支払伝票の監査（法令順守状況、記載内容の正確性、不備の有無のチェック）\n・公共料金などの各種経費の請求書審査・支払い手続き\n・取引履歴と未決済リストのデータ照合・整合性チェック\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用 (採用後６ヶ月間は試用期間）",
    "age": "18歳～61歳",
@@ -1182,16 +1174,15 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Accounting Technician",
-   "description_en": "[Job type] Accounting engineer (JRHB) (1 table 4 grades)\n★Enter the \"reference number\" in the vacancy publicity number column.\nAccounting work such as various payment processing, slip auditing, data verification, etc. at U.S. military-related institutions in Japan.\n・System input and error handling of payment invoices and receipt reports based on contracts\n・Auditing payment slips (checking compliance status, accuracy of written content, and presence of deficiencies)\n・Bill examination and payment procedures for various expenses such as utility charges\n・Data comparison/consistency check of transaction history and unsettled list\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Accounting Technician"
   },
   {
    "id": "031M26080605",
    "title": "会計技術職",
    "position": "一般従業員",
-   "description": "【職種】会計技術職（JBB）（1表4等級）\n★空席広報番号欄に「整理番号」を記入すること。\n在日米軍関連機関における、経費・予算データ入力および日米従業員の給与事務。\n・備品やサービス購入に伴う予算システムのデータ入力および実績の照合・レポート作成\n・従業員のタイムカード回収・確認、および給与担当部署への提出\n・専用システムを使用した、従業員からの給与に関する問い合わせ対応や不具合の解決\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】会計技術職（JBB）（1表4等級）\n【職種番号】#0007\n★空席広報番号欄に「整理番号」を記入すること。\n在日米軍関連機関における、経費・予算データ入力および日米従業員の給与事務。\n・備品やサービス購入に伴う予算システムのデータ入力および実績の照合・レポート作成\n・従業員のタイムカード回収・確認、および給与担当部署への提出\n・専用システムを使用した、従業員からの給与に関する問い合わせ対応や不具合の解決\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用 (採用後６ヶ月間は試用期間）",
    "age": "18歳～61歳",
@@ -1237,10 +1228,9 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Accounting Technician",
-   "description_en": "[Job type] Accounting engineer (JBB) (1 table 4 grades)\n★Enter the \"reference number\" in the vacancy publicity number column.\nExpense/budget data entry and payroll administration for Japanese and American employees at U.S. military-related organizations in Japan.\n・Input data into budget system related to equipment and service purchases, collate actual results, and create reports\n・Collecting and checking employee time cards and submitting them to the payroll department\n・Using a dedicated system to respond to employee inquiries regarding salary and resolve problems\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Accounting Technician"
   },
   {
    "id": "031M26080604",
@@ -1356,7 +1346,7 @@
    "id": "031M26080602",
    "title": "配管工",
    "position": "一般従業員",
-   "description": "【職種】配管工（2表6等級）\n★空席広報番号欄に「整理番号」を記入すること。\n配水管システムや下水リフトステーションの給水システムの検査、保守、修理。 消火栓、消火システム、逆流防止装置の保守、修理、検査。インフラシステムの作業センターに技術サポートをする。コントローラと調整し、作業過程や完了の報告をする。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】配管工（2表6等級）\n【職種番号】#2218\n★空席広報番号欄に「整理番号」を記入すること。\n配水管システムや下水リフトステーションの給水システムの検査、保守、修理。 消火栓、消火システム、逆流防止装置の保守、修理、検査。インフラシステムの作業センターに技術サポートをする。コントローラと調整し、作業過程や完了の報告をする。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用 (採用後６ヶ月の試用期間）",
    "age": "18歳～61歳",
@@ -1402,16 +1392,15 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Plumber",
-   "description_en": "[Occupation] Plumber (2nd table 6th grade)\n★Enter the \"reference number\" in the vacancy publicity number column.\nInspection, maintenance and repair of water pipe systems and sewer lift station water supply systems. Maintenance, repair, and inspection of fire hydrants, fire suppression systems, and backflow prevention devices. Provide technical support to infrastructure systems work centers. Coordinate with controller and report work progress and completion.\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Plumber"
   },
   {
    "id": "031M26080601",
    "title": "燃料配給組織機械工",
    "position": "一般従業員",
-   "description": "【職種）燃料配給組織機械工（2表7等級）\n★空席広報番号欄に「整理番号」を記入すること。\n燃料の貯蔵、供給、給油に使用される液体燃料供給システムの予防保全を実施する。電気部品の保守、設置、トラブルシューティング、修理を行う。電気機械部品の検査をする。点検、保守、修理に関する情報を記録し管理する。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】燃料配給組織機械工（2表7等級）\n【職種番号】#2412\n★空席広報番号欄に「整理番号」を記入すること。\n燃料の貯蔵、供給、給油に使用される液体燃料供給システムの予防保全を実施する。電気部品の保守、設置、トラブルシューティング、修理を行う。電気機械部品の検査をする。点検、保守、修理に関する情報を記録し管理する。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用 (採用後６ヶ月の試用期間）",
    "age": "18歳～61歳",
@@ -1457,10 +1446,9 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Fuel Distribution System Mechanic",
-   "description_en": "[Job type] Fuel distribution organization mechanic (2 table 7 grade)\n★Enter the \"reference number\" in the vacancy publicity number column.\nPerform preventive maintenance on liquid fuel supply systems used to store, dispense, and refuel fuel. Maintain, install, troubleshoot, and repair electrical components. Inspect electromechanical parts. Record and manage information regarding inspection, maintenance, and repair.\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Fuel Distribution System Mechanic"
   },
   {
    "id": "031H26080501",
@@ -1562,7 +1550,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Service Worker",
    "description_en": "[Job type] Service worker (bellboy/bellgirl)\n- At the hotel, work such as transporting luggage, guiding customers, responding to questions from customers, etc.\n・Procedure for shipping customer's luggage.\n・Perform other related/incidental duties.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements of Various Agencies\nScope of work location change: Other U.S. military facilities in Japan"
@@ -1571,7 +1559,7 @@
    "id": "031M26071609",
    "title": "会計技術職",
    "position": "一般従業員",
-   "description": "【職種】会計技術職（JRGD）(1表5等級)\n★空席広報番号欄に「整理番号」を記入すること。\n級会計士として、様々な会計書類や取引伝票を受け取り、確認、分類を行う。ガイドラインに従って必要に応じ見直しや変更を行い、多様な取り引きを調査し処理をする。ダブルエントリーの会計システムを使用し業務を行う。\n★履歴書1枚目12番犯罪歴欄に犯罪歴がない場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】会計技術職（JRGD）(1表5等級)\n【職種番号】#0008\n★空席広報番号欄に「整理番号」を記入すること。\n上級会計士として、様々な会計書類や取引伝票を受け取り、確認、分類を行う。ガイドラインに従って必要に応じ見直しや変更を行い、多様な取り引きを調査し処理をする。ダブルエントリーの会計システムを使用し業務を行う。\n★履歴書1枚目12番犯罪歴欄に犯罪歴がない場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用 (採用後6ヶ月の試用期間）",
    "age": "18歳～61歳",
@@ -1615,16 +1603,15 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Accounting Technician",
-   "description_en": "[Job type] Accounting engineer (JRGD) (1 table 5 grade)\n★Enter the \"reference number\" in the vacancy publicity number column.\nAs a level accountant, I receive, check, and classify various accounting documents and transaction slips. Review and change as necessary in accordance with the guidelines, and investigate and process a variety of transactions. We conduct business using a double-entry accounting system.\n★If you have no criminal history in the 12th criminal history column on the first page of your resume, write [NONE].\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Accounting Technician"
   },
   {
    "id": "031M26071608",
    "title": "運賃専門職",
    "position": "一般従業員",
-   "description": "【職種】運賃専門職 (JRJD) （1表5等級）\n★空席広報番号欄に「整理番号」を記入すること。\n米国防総省および連邦調達庁の方針・規制、契約、合意事項、運賃表、手続きに基づき、特に日本および特定の極東地域に関連する特殊商業輸送の運送状および関連書類について、事前検証および最終的な種類監査を実施する。適切な請求を行うため、独自のルートや複雑な請求項目を含め、料金や運賃の技術的な分析を行い、調整や訂正が必要な場合は是正措置を講じる。\n★履歴書1枚目12番犯罪歴欄に犯罪歴がない場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】運賃専門職 (JRJD) （1表5等級）\n【職種番号】#0449\n★空席広報番号欄に「整理番号」を記入すること。\n米国防総省および連邦調達庁の方針・規制、契約、合意事項、運賃表、手続きに基づき、特に日本および特定の極東地域に関連する特殊商業輸送の運送状および関連書類について、事前検証および最終的な種類監査を実施する。適切な請求を行うため、独自のルートや複雑な請求項目を含め、料金や運賃の技術的な分析を行い、調整や訂正が必要な場合は是正措置を講じる。\n★履歴書1枚目12番犯罪歴欄に犯罪歴がない場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用 (採用後6ヶ月は試用期間）",
    "age": "18歳～61歳",
@@ -1668,16 +1655,15 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Freight Rate Specialist",
-   "description_en": "[Job type] Freight specialist (JRJD) (1 table 5 grades)\n★Enter the \"reference number\" in the vacancy publicity number column.\nPerform pre-verification and final type audits of specialty commercial transportation waybills and related documentation, specifically related to Japan and certain Far East regions, in accordance with U.S. Department of Defense and Federal Services Administration policies and regulations, contracts, agreements, tariffs, and procedures. Perform technical analysis of rates and freight rates, including unique routes and complex billing items, to ensure appropriate billing, and take corrective action if adjustments or corrections are necessary.\n★If you have no criminal history in the 12th criminal history column on the first page of your resume, write [NONE].\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Freight Rate Specialist"
   },
   {
    "id": "031M26071607",
    "title": "運賃専門職",
    "position": "一般従業員",
-   "description": "【職種】運賃専門職 リーダー (JRJD)（1表5等級）\n★空席広報番号欄に「整理番号」を記入すること。\nシニアスペシャリストとして、要件、状況、または問題に関して複雑な取引を受け付け、審査し、分類する。経験に基づく判断力と、広範な調査を行うことで、複数の口座にわたる多種多様な非標準的な取引を審査・処理する。セクションの日常業務を統括し、ジュニアスペシャリストによる業務割り当てが適切に遂行されるよう、ワークフロー上の問題解決や進捗管理を行う。\n★履歴書1枚目12番犯罪歴欄に犯罪歴がない場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】運賃専門職 リーダー (JRJD)（1表5等級）\n【職種番号】#0449\n★空席広報番号欄に「整理番号」を記入すること。\nシニアスペシャリストとして、要件、状況、または問題に関して複雑な取引を受け付け、審査し、分類する。経験に基づく判断力と、広範な調査を行うことで、複数の口座にわたる多種多様な非標準的な取引を審査・処理する。セクションの日常業務を統括し、ジュニアスペシャリストによる業務割り当てが適切に遂行されるよう、ワークフロー上の問題解決や進捗管理を行う。\n★履歴書1枚目12番犯罪歴欄に犯罪歴がない場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用 (採用後6ヶ月は試用期間）",
    "age": "18歳～61歳",
@@ -1723,16 +1709,15 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Freight Rate Specialist",
-   "description_en": "[Job type] Freight specialist leader (JRJD) (1 table 5 grade)\n★Enter the \"reference number\" in the vacancy publicity number column.\nAs a senior specialist, accept, review, and classify complex transactions regarding requirements, situations, or issues. Uses experienced judgment and extensive research to review and process a wide variety of non-standard transactions across multiple accounts. Supervise the day-to-day operations of the section, solve workflow problems and manage progress so that work assignments by junior specialists are carried out appropriately.\n★If you have no criminal history in the 12th criminal history column on the first page of your resume, write [NONE].\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Freight Rate Specialist"
   },
   {
    "id": "031M26071606",
    "title": "秘書職",
    "position": "一般従業員",
-   "description": "【職種】秘書職（1表4等級）\n★空席広報番号欄に「整理番号」を記入すること。\n米国防省防衛財務会計局のディレクターの秘書、および連絡調整担当を行う。状況に応じて組織内で使用される文書類の作成、要人訪問時の対応、通訳/翻訳、スケジュール管理、従業員の勤怠管理等を行う。その他、割り当てられた関連的または付随した職務を行う。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】秘書職（1表4等級）\n【職種番号】#0198\n★空席広報番号欄に「整理番号」を記入すること。\n米国防省防衛財務会計局のディレクターの秘書、および連絡調整担当を行う。状況に応じて組織内で使用される文書類の作成、要人訪問時の対応、通訳/翻訳、スケジュール管理、従業員の勤怠管理等を行う。その他、割り当てられた関連的または付随した職務を行う。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用 (採用後6ヶ月の試用期間）",
    "age": "18歳～61歳",
@@ -1778,16 +1763,15 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Secretary",
-   "description_en": "[Job type] Secretary position (1 table 4 grades)\n★Enter the \"reference number\" in the vacancy publicity number column.\nServes as secretary and liaison and coordinator to the Director of the Defense Finance and Accounting Agency, U.S. Department of Defense. Depending on the situation, we will create documents used within the organization, respond to visits by important people, interpret/translate, manage schedules, manage employee attendance, etc. Perform other related or incidental duties as assigned.\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Secretary"
   },
   {
    "id": "031M26071604",
    "title": "塗装工",
    "position": "一般従業員",
-   "description": "【職種】塗装工\n★空席広報番号欄に「整理番号」を記入すること。\n内外の構造物、道路標示、飛行場、滑走路表示の塗装前の下地処理など、主要な塗装業務と責任を負う。新しい構造物を立てたり、既存の設備を変更したりすることを含む、軽微な大工の補助を行う。金属製および木製のドアシステムにロックシステムを取り付けるなど、ちょっとした鍵屋の補助を行う。設計図、スケッチ、その他の文書/口頭による指示を使用して作業計画を立てるなど、軽微な溶接の補助を行う。自分自身、同僚、顧客、歩行者のために安全な作業を行う責任がある。\n★履歴書1枚目12番犯罪歴欄に犯罪歴がない場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】塗装工\n【職種番号】#2206\n★空席広報番号欄に「整理番号」を記入すること。\n内外の構造物、道路標示、飛行場、滑走路表示の塗装前の下地処理など、主要な塗装業務と責任を負う。新しい構造物を立てたり、既存の設備を変更したりすることを含む、軽微な大工の補助を行う。金属製および木製のドアシステムにロックシステムを取り付けるなど、ちょっとした鍵屋の補助を行う。設計図、スケッチ、その他の文書/口頭による指示を使用して作業計画を立てるなど、軽微な溶接の補助を行う。自分自身、同僚、顧客、歩行者のために安全な作業を行う責任がある。\n★履歴書1枚目12番犯罪歴欄に犯罪歴がない場合は【無し／NONE】と記入\nまた4枚目17番の求職者署名欄に署名を忘れずに記入\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用雇用 (採用後6ヶ月は試用期間）",
    "age": "18歳～61歳",
@@ -1831,10 +1815,9 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Painter",
-   "description_en": "[Job type] Painter\n★Enter the \"reference number\" in the vacancy publicity number column.\nResponsible for major painting operations such as pre-painting of internal and external structures, road markings, airports, and runway markings. Performs minor carpentry assistance, including erecting new structures or modifying existing equipment. Perform minor locksmith assistance, such as installing locking systems on metal and wooden door systems. Performs minor welding assistance, including planning work using blueprints, sketches, and other written/verbal instructions. Responsible for working safely for themselves, coworkers, customers, and pedestrians.\n★If you have no criminal history in the 12th criminal history column on the first page of your resume, write [NONE].\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Painter"
   },
   {
    "id": "031M26071603",
@@ -1886,7 +1869,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Electrician"
   },
@@ -1938,7 +1921,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Boiler Operator"
   },
@@ -2098,7 +2081,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Building Maintenance Worker"
   },
@@ -2150,7 +2133,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Bartender"
   },
@@ -2204,7 +2187,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Housekeeper"
   },
@@ -2366,7 +2349,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Engineer position (adaptive specialized work)"
   },
@@ -2418,7 +2401,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Plumber"
   },
@@ -2470,7 +2453,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Engineer position (adaptive specialized work)"
   },
@@ -2522,7 +2505,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Refrigeration & Air Conditioning Mechanic"
   },
@@ -2576,7 +2559,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Dental Hygienist"
   },
@@ -2628,7 +2611,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Boiler Operator",
    "description_en": "Operation and adjustment of oil, fire yards, boilers and auxiliary equipment. Inspect, repair, and overhaul boilers and auxiliary parts through routine or periodic maintenance. Performs other related or incidental duties as assigned.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements of Various Agencies\nScope of work location change: Other U.S. military facilities in Japan"
@@ -2736,7 +2719,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Engineer position (adaptive specialized work)"
   },
@@ -2788,7 +2771,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Engineering profession (adaptive specialist work)",
    "description_en": "[Job title] Engineering specialist [Vacancy PR number] MLC(III)25-114\nHe works as a mechanical engineer responsible for site management of construction programs. Serve as the primary point of contact and point of contact on assigned construction projects. Prepare written plans, reports, and other documents and update automated information systems. Conduct briefings, identify project deficiencies, and suggest improvements.\n*Please refer to the Army website for details.\n*Scope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\n*Scope of change in work location: Other US military facilities in Japan"
@@ -2841,7 +2824,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Cook"
   },
@@ -2893,7 +2876,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Cook",
    "description_en": "Preparation, cooking, plating, and other incidental duties in the hotel kitchen.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements of Various Agencies\nScope of work location change: Other U.S. military facilities in Japan"
@@ -2948,7 +2931,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Power Generation Equipment Repairer"
   },
@@ -3000,7 +2983,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Telephone Operator",
    "description_en": "Telephone exchange service at hotels.\nPerform other related and incidental duties.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements of Various Agencies\nScope of work location change: Other U.S. military facilities in Japan"
@@ -3053,7 +3036,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Information processing technology specialist (adaptive specialist work)",
    "description_en": "[Job title] Information processing technology specialist (adaptive specialized work) [Vacancy PR number] MLC (III) 25-182-01 [English name] IT Specialist (General) (1 table 6 grade)\nAs an IT specialist, he is responsible for all aspects of system management, system analysis, customer support, and security for Stars and Stripes Newspaper. Responsible for ensuring safe and reliable systems. The job requires skills and knowledge, including analyzing data/systems, troubleshooting problems, and evaluating established methods and procedures.\n*Please refer to the Army website for details.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\n*Scope of change in work location: Other US military facilities in Japan"
@@ -3106,7 +3089,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Janitor",
    "description_en": "Perform cleaning work for hotel facilities and other incidental work.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements of Various Agencies\n*Scope of change in work location: Other US military facilities in Japan"
@@ -3159,7 +3142,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Engineer position (civil engineering)",
    "description_en": "[Job type] Engineer position (civil engineering)\n★Be sure to enter the \"reference number\" in the vacancy publicity number column.\n*Depending on the applicant's qualifications, you may be hired as a training level at Grade 1 Table 6. For more information, please contact the Employment Division of the Human Resources Department directly.\nWe perform preventive maintenance, analysis of maintenance, resource optimization, life cycle planning, operation and maintenance of facilities such as design, construction, maintenance, repair, refurbishment, acquisition, and disposal, as well as engineering work related to utility systems and infrastructure equipment. They also analyze processes based on work programs and data, consider project bids, prepare contract documents, and provide translation and interpretation.\n★If you have no criminal history, be sure to write [NONE] in the 12th criminal history column on the first page of your resume.\nAlso, don't forget to fill in the signature of job applicant No. 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
@@ -3168,7 +3151,7 @@
    "id": "031M24090501",
    "title": "エンジニアリング専門職（電子技術）（1表5等級）",
    "position": "一般従業員",
-   "description": "【職種】エンジニアリング専門職（電子技術）\n※空席広報番号に「整理番号」を必ず記入すること。\n調達・供給では入手できない特殊なHF、VHF、UHFアンテナおよび無線周波数通信機器の製造や修理のためのさまざまな部品や工具の設計、製造、修理を行う。アンテナの部品やコンポーネントの組み立てを顧客のニーズや出荷の制約レベル内で行う。Solid Works CADプログラミングを使用し、3Dモデルやショップ図面を作成する。購買書類を用意したり在庫管理など一般事務作業を行う。コンピューター制御の機械を操作する。\n履歴書1枚目12番犯罪履歴欄、ない場合は【無し／NONE】と記入。\nまた、4枚目17番求職者の署名を忘れずに記入。\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】エンジニアリング専門職（電子技術）（1表5等級）\n【職種番号】#0310\n※空席広報番号に「整理番号」を必ず記入すること。\n調達・供給では入手できない特殊なHF、VHF、UHFアンテナおよび無線周波数通信機器の製造や修理のためのさまざまな部品や工具の設計、製造、修理を行う。アンテナの部品やコンポーネントの組み立てを顧客のニーズや出荷の制約レベル内で行う。Solid Works CADプログラミングを使用し、3Dモデルやショップ図面を作成する。購買書類を用意したり在庫管理など一般事務作業を行う。コンピューター制御の機械を操作する。\n履歴書1枚目12番犯罪履歴欄、ない場合は【無し／NONE】と記入。\nまた、4枚目17番求職者の署名を忘れずに記入。\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用（採用後6ヶ月は試用期間）",
    "age": "18歳～61歳",
@@ -3201,7 +3184,7 @@
    "jp_note": "",
    "age_min": 18,
    "age_max": 61,
-   "grade": "",
+   "grade": "1-5",
    "org_ja": "",
    "org_en": "",
    "lpl": null,
@@ -3212,16 +3195,15 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Engineering profession (electronic technology) (1 table 5 grade)",
-   "description_en": "[Job type] Engineering specialist (electronic technology)\n*Be sure to enter the \"reference number\" in the vacant seat public information number.\nThe company designs, manufactures and repairs a variety of parts and tools for the manufacture and repair of specialized HF, VHF and UHF antennas and radio frequency communications equipment not available through procurement and supply. Assemble antenna parts and components within customer needs and shipping constraints. Create 3D models and shop drawings using Solid Works CAD programming. Perform general office work such as preparing purchasing documents and managing inventory. Operate computer-controlled machinery.\nIn the 12th criminal history column on the first page of your resume, if you don't have it, write [NONE].\nAlso, don't forget to fill in the signature of job applicant No. 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Engineering profession (electronic technology) (1 table 5 grade)"
   },
   {
    "id": "031M23111602",
    "title": "ラジオ、テレビ維持修理工",
    "position": "一般従業員",
-   "description": "【職種】ラジオ、テレビ維持修理工\n★空席広報番号に「整理番号」を必ず記入してください。\n太平洋米軍ネットワーク（AFNP）の放送、通信スペシャリストとして勤務する。AF/FM周波数、送信機通信、スタジオ・ツーリング・リンク（STL）ネットワークストリーミング、アナログ・デジタル回路の知識、図面の理解、電子原理を理解し、AFNP, 防衛メディア活動（DMA）、日本の技術性能基準に従って放送能力の完全性と継続性を確保する。コンピューターを使用した放送機器の設置、メンテナンス/テスト、文書化を行うための情報技術に関する基本的な理解を有すること。地域の指揮統制と娯楽を地域全体に広めるために利用される、音声と映像のメディア管理ソフトウェアの構成を確認する。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／ＮＯＮＥ】と記入\nまた、4枚目17番求職者の署名を忘れずに記入。\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】ラジオ、テレビ維持修理工（2表8等級）\n【職種番号】#2353\n★空席広報番号に「整理番号」を必ず記入してください。\n太平洋米軍ネットワーク（AFNP）の放送、通信スペシャリストとして勤務する。AF/FM周波数、送信機通信、スタジオ・ツーリング・リンク（STL）ネットワークストリーミング、アナログ・デジタル回路の知識、図面の理解、電子原理を理解し、AFNP, 防衛メディア活動（DMA）、日本の技術性能基準に従って放送能力の完全性と継続性を確保する。コンピューターを使用した放送機器の設置、メンテナンス/テスト、文書化を行うための情報技術に関する基本的な理解を有すること。地域の指揮統制と娯楽を地域全体に広めるために利用される、音声と映像のメディア管理ソフトウェアの構成を確認する。\n★履歴書1枚目12番犯罪歴欄、無い場合は【無し／ＮＯＮＥ】と記入\nまた、4枚目17番求職者の署名を忘れずに記入。\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用（採用後6ヶ月は試用期間）",
    "age": "18歳～61歳",
@@ -3267,16 +3249,15 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Radio / TV Maintenance Technician",
-   "description_en": "[Job type] Radio, TV maintenance repairman\n★Please be sure to write the \"reference number\" in the vacant seat advertisement number.\nServed as a broadcast and communications specialist for the US Forces Network Pacific (AFNP). Understand AF/FM frequencies, transmitter communications, Studio Touring Link (STL) network streaming, knowledge of analog and digital circuits, understanding of drawings, and electronic principles to ensure the integrity and continuity of broadcast capabilities in accordance with AFNP, Defense Media Activity (DMA), and Japanese Technical Performance Standards. Possess a basic understanding of information technology to install, maintain/test, and document computer-based broadcast equipment. Review the configuration of audio and video media management software used to disseminate local command and control and entertainment throughout the region.\n★Civil history column No. 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to fill in the signature of job applicant No. 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Radio / TV Maintenance Technician"
   },
   {
    "id": "031M23012604",
    "title": "警備員",
    "position": "一般従業員",
-   "description": "【職種】警備員\n※空席広報番号に「整理番号」を記入すること。\n在日米軍施設の基地通用門で、指定された装備をつけて入門する人員や交通の整理及び警察業務を遂行する。\n実務につく前に６～８週間程度の専門的な訓練を受けることが必須になります。\n※勤務スケジュールは変更される場合があります。\n履歴書1枚目12番犯罪履歴欄、ない場合は【無し／None】と記入。\nまた、4枚目17番求職者の署名を忘れずに記入。\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "description": "【職種】警備員（3表1等級）\n【職種番号】#3000\n※空席広報番号に「整理番号」を記入すること。\n在日米軍施設の基地通用門で、指定された装備をつけて入門する人員や交通の整理及び警察業務を遂行する。\n実務につく前に６～８週間程度の専門的な訓練を受けることが必須になります。\n※勤務スケジュールは変更される場合があります。\n履歴書1枚目12番犯罪履歴欄、ない場合は【無し／None】と記入。\nまた、4枚目17番求職者の署名を忘れずに記入。\n職種の変更の範囲：基本労務契約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
    "location": "横田飛行場（東京都福生市）",
    "employment": "常用（採用後6ヶ月は試用期間）",
    "age": "18歳～61歳",
@@ -3309,7 +3290,7 @@
    "jp_note": "",
    "age_min": 18,
    "age_max": 61,
-   "grade": "",
+   "grade": "3-1",
    "org_ja": "",
    "org_en": "",
    "lpl": null,
@@ -3320,10 +3301,9 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
-   "title_en": "Security Guard",
-   "description_en": "[Job type] Security guard\n*Enter the \"reference number\" in the vacant seat public information number.\nAt the base access gate of a U.S. military facility in Japan, they perform police duties and direct traffic and personnel wearing designated equipment.\nIt is mandatory to undergo 6 to 8 weeks of specialized training before starting work.\n*Work schedule is subject to change.\nIn the 12th criminal history column on the first page of your resume, if you don't have it, write [None].\nAlso, don't forget to fill in the signature of job applicant No. 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
+   "title_en": "Security Guard"
   },
   {
    "id": "031I22011601",
@@ -3373,7 +3353,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Housekeeper position (Forman A)",
    "description_en": "Confirming that rooms cleaned by room attendants are properly cleaned. Supervision of schedule management, etc. for cabin attendants. Carry out work such as cleaning hotel facilities and guest rooms, making beds, and other related and incidental work.\nScope of changes in work content: Within the scope of the Labor Agreement Annex I Job Definition of Various Agencies\nScope of work location change: Other U.S. military facilities in Japan"
@@ -3426,7 +3406,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Waiter / Waitress",
    "description_en": "Serving customers primarily whose native language is English at hotel restaurants (elegant dining, family restaurants, banquet halls, etc.). Carry out other related and incidental work.\nScope of changes in work content: Within the scope of the Labor Agreement Annex I Job Definition of Various Agencies\nScope of work location change: Other U.S. military facilities in Japan"
@@ -3459,9 +3439,8 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
-   "active": true,
-   "title_en": "Cook"
+   "last_seen": "2026-09-14",
+   "active": true
   },
   {
    "id": "FSS-軍支援中隊下士官クラブ-2-5",
@@ -3491,9 +3470,8 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
-   "active": true,
-   "title_en": "Cook"
+   "last_seen": "2026-09-14",
+   "active": true
   },
   {
    "id": "FSS-軍支援中隊下士官クラブ-2-4",
@@ -3523,9 +3501,8 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
-   "active": true,
-   "title_en": "Bartender"
+   "last_seen": "2026-09-14",
+   "active": true
   },
   {
    "id": "FSS-施設中隊-2-6",
@@ -3555,9 +3532,8 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
-   "active": true,
-   "title_en": "Plumber"
+   "last_seen": "2026-09-14",
+   "active": true
   },
   {
    "id": "FSS-憲兵中隊-3-1",
@@ -3587,7 +3563,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Guard"
   },
@@ -3619,7 +3595,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-08-17",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Freight Rate Specialist (leader)"
   },
@@ -3651,7 +3627,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Secretary"
   },
@@ -3746,7 +3722,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "forklift driver"
   },
@@ -3810,7 +3786,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-08-17",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Engineering profession (electronic)"
   },
@@ -3842,7 +3818,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-08-25",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Engineering profession (architecture)*1"
   },
@@ -3874,7 +3850,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-08-17",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "Engineer position (electricity)*1"
   },
@@ -3906,7 +3882,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-09-07",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "computer operator"
   },
@@ -4002,11 +3978,11 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-08-25",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-09-14",
    "active": true,
    "title_en": "management profession"
   }
  ],
  "fss_source_url": "https://yokota374fss.com/wp-content/uploads/2026/09/Yokota-Vacancy-Announcement-for-LN-3-Sep-26.pdf",
- "fss_updated": "2026-09-07T11:37:00+09:00"
+ "fss_updated": "2026-09-14T12:06:14+09:00"
 }
