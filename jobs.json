@@ -1,16 +1,69 @@
 {
- "updated": "2026-10-19T12:06:14+09:00",
+ "updated": "2026-10-26T11:57:06+09:00",
  "source": "LMO 駐留軍等労働者労務管理機構 / 横田支部",
  "source_url": "https://www.lmo.go.jp/recruitment/",
  "counts": {
   "active": 63,
-  "archived": 68,
-  "total": 131,
+  "archived": 69,
+  "total": 132,
   "english_posting": 25,
   "bilingual_posting": 11,
   "open_to_public": 58
  },
  "items": [
+  {
+   "id": "031I26102101",
+   "title": "フリートサービスマン",
+   "position": "一般従業員",
+   "description": "【職種】フリードサービスマン（2表5等級）\n【職種番号】#2057\n★空席広報番号欄に「整理番号」を記入すること。\n横田基地に乗り入れている旅客機及び荷物輸送機の乗務員と乗客の機内食品製造から積み込み全般。基地内コンビニ・移動販売車の食品卸業、旅客ターミナル待合室での食品販売、自動販売機補充業務。職場キッチンで弁当・サンドイッチ等の製造、輸送トラックへフードカートの積み込み、機内への積み込み、機内にてドリンク・サプライ等の補充、定期就航便の旅客に食品販売。アンダーブランチのヘルプ、機内食品部で使用する食材の受け取り及び保管、フレンドシップフェスティバルの出店サポート、その他付随する業務全般。\n飛行機の到着・出発時間の変更により1日の勤務時間が増減する可能性あり。\n例）0600-1200(月),0600-1500(火),0600-1500(水),1300-1900(木),0600-1400(金)\n★履歴書1枚目12番犯罪歴欄、ない場合は【無し／NONE】と記入。\nまた4枚目17番求職者の署名を忘れず記入。\n職種の変更の範囲：諸機関労務協約附表Ⅰ職務定義書の範囲内\n就業場所の変更の範囲：他の在日米軍施設",
+   "location": "横田飛行場（東京都福生市）",
+   "employment": "常用雇用（採用から6ヶ月は試用期間）",
+   "age": "18歳～61歳",
+   "requirements": "【必要な資格等】\n・基本的な英会話能力（英検準2級相当）\n・20キロ以上のものを持ち上げることができる身体能力\n・普通自動車運転免許 ※要証明書コピー添付\n・大型自動車免許・フォークリフト免許があると尚可",
+   "hours": "週35時間 06:00～16:00の時間内における2週間毎のシフト制勤務\n※フライトスケジュールに沿って勤務日、勤務時間、休日の変更あり。",
+   "wage_type": "日給月給制",
+   "salary_raw": "基本給220,237円地域手当35,237円",
+   "holidays": "週2日（基本土、日）",
+   "childcare_leave": "有",
+   "insurance": "健康、厚生、労災、雇用",
+   "housing": "手当支給（月額最高28,000円）",
+   "car_commute": "可",
+   "commute_allowance": "手当支給（月額最高150,000円）",
+   "openings": "2人",
+   "deadline_net": "書類選考が始まり次第、終了",
+   "office": "駐留軍等労働者労務管理機構横田支部 管理課管理第２係",
+   "remarks": "【応募方法】\n在日米空軍履歴書（機構HPでダウンロードできる指定履歴書）に必要事項記入（原則日英両文で記載、英語能力が資格に要求されない職種は、日本語のみの記載でも可。Emailアドレスを履歴書上に必ず記入）後、免許、資格等、証明書の写しを添付しているか確認の上、下記の送り先に送付\n※日本の国籍以外の方は有効な在留カード（永住者のみ）の両面コピー、特別永住者証明書又はこれらの書類とみなされる外国人登録証明書、パスポート、査証の写しを添付\n※選考結果の連絡は、書類選考通過者のみに行います。不採用の場合、選考結果の通知は行いません。番号非通知の着信を拒否している場合は連絡できません。応募書類は返却不可（責任廃棄）\n【送り先】東京都昭島市代官山二丁目４番４ 昭島昭和第2ビル4階 労務管理機構横田支部管理課 管理第２係\n問い合わせ：042-542-7663\n【提出期限】軍が求人終了の判断を下し次第、即終了\n【選考期間】選考は軍の担当者が行うため、選考までに要する期間は不定\n障害のある方もご応募ください。採用は障害の有無にかかわらず適正と能力により判断されます。",
+   "posted": "2026/10/21",
+   "category": "trade",
+   "contract": "IHA",
+   "employment_type": "regular",
+   "salary_base": 220237,
+   "salary_allowance": 35237,
+   "salary_total": 255474,
+   "salary_hourly": null,
+   "eng_level": null,
+   "eng_toeic": null,
+   "eng_raw": "",
+   "jp_mentioned": false,
+   "jp_note": "",
+   "age_min": 18,
+   "age_max": 61,
+   "grade": "2-5",
+   "org_ja": "",
+   "org_en": "",
+   "lpl": null,
+   "internal_only": false,
+   "posting_lang": "",
+   "desc_en_official": "",
+   "sources": [
+    "LMO"
+   ],
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "active": true,
+   "title_en": "fleet service man",
+   "description_en": "[Job type] Free serviceman (2 tables, 5th grade)\n[Job number] #2057\n★Enter the \"reference number\" in the vacancy publicity number column.\nIn-flight food production and general loading for crew and passengers on passenger planes and cargo transport planes operating at Yokota Air Base. Food wholesale business at on-base convenience stores and mobile sales vehicles, food sales at passenger terminal waiting rooms, and vending machine replenishment. Manufacture bento boxes, sandwiches, etc. in the workplace kitchen, load food carts onto transport trucks, load onto aircraft, replenish drinks and supplies on board, and sell food to passengers on regular flights. Help with under-branch, receiving and storing ingredients used in the in-flight food department, support for opening stores at Friendship Festival, and other related duties.\nDaily working hours may change due to changes in flight arrival/departure times.\nExample) 0600-1200 (Monday), 0600-1500 (Tuesday), 0600-1500 (Wednesday), 1300-1900 (Thursday), 0600-1400 (Friday)\n★In the criminal history column No. 12 on the first page of your resume, write [NONE] if you do not have any.\nAlso, don't forget to write the signature of job seeker number 17 on the 4th sheet.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements between Agencies\nScope of work location change: Other U.S. military facilities in Japan"
+  },
   {
    "id": "031M26101511",
    "title": "管理員",
@@ -61,8 +114,10 @@
     "FSS"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "active": true
+   "last_seen": "2026-10-26",
+   "active": true,
+   "title_en": "administrator",
+   "description_en": "[Job type] Administrator (1 table 6 grade)\n[Job number] #0484\n★Enter the \"reference number\" in the vacancy publicity number column.\nIn the department to which the Chief Counselor of the U.S. Forces Japan Headquarters belongs, he performs all administrative work related to the Chief Counselor's command, supervision, decision-making, etc. of his units in both English and Japanese.\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I job definition\nScope of work location change: Other U.S. military facilities in Japan\n[Language proficiency level: 4] When applying for this position, you must attach a copy of one of the following language qualification certificates.\nTOEIC 860 points or higher, ALCPT 86 points (tests taken before February 8, 2016), TOEFL (PBT) 600 points, TOEFL (CBT) 250 points, TOEFL (iBT) 100 points, Eiken Grade 1 or higher\nLanguage certifications other than those listed above will not be accepted. (Certificate copy required)"
   },
   {
    "id": "031M26101509",
@@ -114,7 +169,7 @@
     "FSS"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Accounting Technician"
   },
@@ -168,7 +223,7 @@
     "FSS"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Accounting Technician"
   },
@@ -222,8 +277,10 @@
     "FSS"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "active": true
+   "last_seen": "2026-10-26",
+   "active": true,
+   "title_en": "Welfare program assistant position",
+   "description_en": "[Job type] Welfare program assistant position (1 table, 3 grades)\n[Job number] #0186\n★Enter the \"reference number\" in the vacancy publicity number column.\nProvide customer service such as domestic travel information, event introductions, and ticket arrangements and sales. Assist with the management and setup of various scheduled events. Perform other related duties as assigned.\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I job definition\nScope of work location change: Other U.S. military facilities in Japan"
   },
   {
    "id": "031M26101505",
@@ -273,7 +330,7 @@
     "LMO"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Auto Body & Fender Repairer"
   },
@@ -327,7 +384,7 @@
     "FSS"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Painter"
   },
@@ -381,7 +438,7 @@
     "FSS"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Automotive Painter"
   },
@@ -435,8 +492,10 @@
     "FSS"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "active": true
+   "last_seen": "2026-10-26",
+   "active": true,
+   "title_en": "librarian position",
+   "description_en": "[Job type] Librarian position (1 table 6 grade)\n[Job number] #0112\n★Enter the \"reference number\" in the vacancy publicity number column.\nPerform work in a multi-processing/multi-programming environment, including installing and operating computer equipment and related auxiliary and peripheral equipment according to procedures.\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I job definition\nScope of work location change: Other U.S. military facilities in Japan\n[Language proficiency level: 3] When applying for this position, you must attach a copy of a certificate of one of the following language qualifications.\nTOEIC 730 points and above, ALCPT 90 points and above (76 points before 2016), TOEFL (PBT) 550 points and above, TOEFL (CBT) 210 points and above, TOEFL (iBT) 80 points and above, CASEC 870 points and above, EIKEN Pre-1 grade and above.\nLanguage certifications other than those listed above will not be accepted. (Certificate copy required)"
   },
   {
    "id": "031I26101512",
@@ -486,7 +545,7 @@
     "LMO"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Service Worker"
   },
@@ -540,7 +599,7 @@
     "FSS"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Housekeeper"
   },
@@ -594,7 +653,7 @@
     "FSS"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Waiter / Waitress"
   },
@@ -648,8 +707,10 @@
     "FSS"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "active": true
+   "last_seen": "2026-10-26",
+   "active": true,
+   "title_en": "management profession",
+   "description_en": "[Job type] Management specialist (1 table, 4 grades)\n[Job number] #0292\n★Enter the \"reference number\" in the vacancy publicity number column.\nPrepare and explain documents for customers who wish to join the Aero Club. Manage records of each member's file updates, flight hours, exams, training, etc. Respond to customers visiting the Aero Club or answer the telephone. Coordinating pre-clearance applications with public use airports to allow landing based on the submitted flight plan. Arrange sightseeing tours and incentive flights as needed. Create, submit, and check accounting reports and financial reports.\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements between Agencies\nScope of work location change: Other U.S. military facilities in Japan"
   },
   {
    "id": "031H26101513",
@@ -699,8 +760,10 @@
     "LMO"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "active": true
+   "last_seen": "2026-10-26",
+   "active": true,
+   "title_en": "golf course maintenance worker",
+   "description_en": "[Job type] Golf course maintenance worker (2nd table 4th grade)\n[Job number] #2149\n★Enter the \"reference number\" in the vacancy publicity number column.\nCourse maintenance, lawn maintenance, and operation and management of related equipment to maintain course condition at the Tama Golf Course for the U.S. Forces in Japan.\n・Daily course setup and maintenance, including cup cutting, setting up tee markers, refilling water coolers, leveling sand in bunkers, and cleaning the course.\n- Lawn management such as aeration, weed removal, and sanding, and assistance with course renovation projects.\n・Driving and operating lawn mowers, small tractors, etc., and daily maintenance such as cleaning, greasing, and refueling equipment.\n★In the criminal history column No. 12 on the first page of your resume, write [NONE] if you do not have any.\nAlso, don't forget to write the signature of job seeker number 17 on the 4th sheet.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements between Agencies\nScope of work location change: Other U.S. military facilities in Japan\n*Employment may or may not be renewed, and even if renewed, the total employment period from the first hire will not exceed three years. Renewal will be determined based on one or more of the following criteria: ① Work load at the end of the relevant employment period ② Progress of the work being engaged in ③ U.S. military operational status ④ Work performance and attitude of the employee ⑤ Abilities of the employee"
   },
   {
    "id": "031I26101402",
@@ -750,8 +813,10 @@
     "LMO"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "active": true
+   "last_seen": "2026-10-26",
+   "active": true,
+   "title_en": "restaurant manager",
+   "description_en": "[Job type] Cafeteria manager (assistant manager (food)) (1 table 5 grade)\n[Job number] #0104\n★Enter the \"reference number\" in the vacancy publicity number column.\nResponsible for the overall operation of Yokota's in-flight food department and central kitchen department. Support your manager and make decisions on his or her behalf in his or her absence. Understand the company's philosophy and abide by its policies. Supporting managers, managing and supervising subordinates, coordinating with other departments, processing daily general affairs (invoice processing, log entry), acting on behalf of direct supervisors when they are on vacation, etc.\n★In the criminal history column No. 12 on the first page of your resume, write [NONE] if you do not have any.\nAlso, don't forget to write the signature of job seeker number 17 on the 4th sheet.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements between Agencies\nScope of work location change: Other U.S. military facilities in Japan"
   },
   {
    "id": "031I26101401",
@@ -802,7 +867,7 @@
    ],
    "first_seen": "2026-10-19",
    "last_seen": "2026-10-19",
-   "active": true
+   "active": false
   },
   {
    "id": "031M26100106",
@@ -852,7 +917,7 @@
     "LMO"
    ],
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "tractor trailer driver",
    "description_en": "[Occupation] Tractor/trailer driver (Table 2, Grade 7)\n[Job number] #2370\n★Enter the \"reference number\" in the vacancy publicity number column.\nDriving buses and large vehicles of 10 tons or less carrying passengers and luggage. Operation of a forklift, including lifting and unloading cargo. Move between facilities within U.S. military facilities and on public roads and highways.\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I job definition\nScope of work location change: Other U.S. military facilities in Japan"
@@ -907,7 +972,7 @@
     "FSS"
    ],
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Automotive Mechanic",
    "description_en": "[Occupation] Automotive mechanic (2nd table 7th grade)\n[Job number] #2034\n★Enter the \"reference number\" in the vacancy publicity number column.\nAt U.S. military facilities in Japan, perform general management/investigation centered on maintenance, daily inspection, and repair of vehicles such as aircraft refueling vehicles.\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I job definition\nScope of work location change: Other U.S. military facilities in Japan"
@@ -962,7 +1027,7 @@
     "FSS"
    ],
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Accounting Technician",
    "description_en": "[Job type] Accounting engineer (JRHA) (1 table, 4 grades)\n[Job number] #0007\n★Enter the \"reference number\" in the vacancy publicity number column.\nExamination and processing of various accounting documents, system input and confirmation work at US military-related institutions in Japan\n・Checking the contents of contracts, etc., creating and reviewing various accounting documents, and system processing\n・Daily financial reporting data and expense processing using a dedicated accounting system, and checking the accuracy of data\n・Regular confirmation of service contracts and interdepartmental agreements, and verification of provided services and contract conditions.\n・Voucher processing, email/document creation, and various inquiry response tasks in both English and Japanese\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I job definition\nScope of work location change: Other U.S. military facilities in Japan"
@@ -1017,7 +1082,7 @@
     "FSS"
    ],
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "dental assistant profession",
    "description_en": "[Job type] Dental assistant position (5 tables, 2nd grade)\n[Job type number] #5000\n★Enter the \"reference number\" in the vacancy publicity number column.\n- Assist doctors who perform dental checkups and treatment.\n・Measure the patient's blood pressure and pulse.\n・Prepare treatment equipment and examination rooms according to guidelines and keep the hospital clean.\n・Record medical details and file them.\n- Arrange the patient's next appointment.\n・Perform other related duties as assigned.\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I job definition\nScope of work location change: Other U.S. military facilities in Japan"
@@ -1072,7 +1137,7 @@
     "FSS"
    ],
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "automatic industrial machine operator",
    "description_en": "[Job type] Automatic industrial machine operator (Table 2, Grade 5)\n[Job number] #2418\n★Enter the \"reference number\" in the vacancy publicity number column.\nOperate tractors and attached equipment to work on flat or undulating large areas, parks, lawns, roadsides, etc. Perform work including maintenance, repair and construction of hard pavement and concrete surfaces.\n★Civil history column 12 on the first page of your resume, if you don't have it, write [NONE]\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I job definition\nScope of work location change: Other U.S. military facilities in Japan"
@@ -1180,7 +1245,7 @@
     "LMO"
    ],
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Short Order Cook",
    "description_en": "[Job type] Short order cook (2 tables, 4 grades)\n[Job number] #2119\n★Enter the \"reference number\" in the vacancy publicity number column.\nGeneral in-flight meal production for passenger and cargo aircraft crews and passengers operating at Yokota Air Base. Food manufacturing and wholesale business for on-base convenience stores, mobile sales vehicles, and passenger terminals.\n・Making bento boxes and hot sandwiches and preparing ingredients (cutting vegetables, etc.) in the workplace kitchen\n・Production of in-flight food (sandwiches, etc.) in the workplace kitchen\n・Other ingredients management, hygiene management, washing etc.\n★In the criminal history column No. 12 on the first page of your resume, write [NONE] if you do not have any.\nAlso, don't forget to write the signature of job seeker number 17 on the 4th sheet.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements between Agencies\nScope of work location change: Other U.S. military facilities in Japan\n*Employment may or may not be renewed, and even if renewed, the total employment period from the first hire will not exceed three years. Renewal will be determined based on one or more of the following criteria: ① Work load at the end of the relevant employment period ② Progress of the work being engaged in ③ U.S. military operational status ④ Work performance and attitude of the employee ⑤ Abilities of the employee"
@@ -1341,7 +1406,7 @@
     "FSS"
    ],
    "first_seen": "2026-09-21",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Accounting Technician",
    "description_en": "【職種】会計技術職 (JRJC) (1表4等級)\n[Job number] #0007\n★Enter the \"reference number\" in the vacancy publicity number column.\nPerform accounting operations using accounting systems. Receive, review and process various accounting documents. Respond to customer inquiries verbally or in writing. Manage and confirm accounting systems, enter data, and provide information on accounting transactions and explanations regarding accounting processing.\n★If you have no criminal history in the 12th criminal history column on the first page of your resume, write [NONE].\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan"
@@ -1552,7 +1617,7 @@
     "LMO"
    ],
    "first_seen": "2026-09-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "accounting position"
   },
@@ -1711,7 +1776,7 @@
     "FSS"
    ],
    "first_seen": "2026-09-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Cook"
   },
@@ -1763,7 +1828,7 @@
     "LMO"
    ],
    "first_seen": "2026-09-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "maintenance mechanic",
    "description_en": "[Job type] Maintenance mechanic (2nd table 6th grade) [Vacancy PR number] MLA (IV) 26-217-01\n★Write the \"reference number\" in the blank space at the top of your resume.\n*You may be hired from a lower grade (grade 2, table 5) depending on your qualifications and experience.\n*If you have applied for MLA(IV)26-217 once, there is no need to reapply.\nLead or assist in the maintenance, repair, or replacement of air conditioning and ventilation systems. For individual air conditioners, we perform everything from checking the condition using a tester to disassembling and reassembling parts, gas welding, refrigerant recovery, and issuing certificates. Central air conditioners maintain safe operation by managing equipment operations, cleaning cooling towers and underground water tanks, adding chemicals, and replacing various filters and V-belts. Attends daily meetings, escorts and supervises contractors, and assists with plumbing shop operations. In addition to cleaning the shop, organizing tools, and taking inventory on a daily basis, they also pick up trash, mow the lawn, and remove snow within the facility depending on the season, and undergo mandatory training every year.\n★If there is no criminal history column in No. 12 on the first page of your resume, write [NONE].\nAlso, don't forget to write your signature in the job applicant signature field on number 17 on the 4th sheet.\nScope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\nScope of work location change: Other U.S. military facilities in Japan\n[Wage] 2nd table 6th grade: Basic salary 260,400 yen Regional allowance 52,080 yen / 2nd table 5th grade: Basic salary 251,700 yen Regional allowance 50,340 yen"
@@ -1870,7 +1935,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-25",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Employee management relations coordinator"
   },
@@ -1977,7 +2042,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-25",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Accounting Technician"
   },
@@ -2031,7 +2096,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-25",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "electric wire worker"
   },
@@ -2083,7 +2148,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-25",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Engineering profession (adaptive specialist work)"
   },
@@ -2508,7 +2573,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Security Guard"
   },
@@ -2562,7 +2627,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Accounting Technician"
   },
@@ -2834,7 +2899,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Plumber"
   },
@@ -2992,7 +3057,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Service Worker",
    "description_en": "[Job type] Service worker (bellboy/bellgirl)\n- At the hotel, work such as transporting luggage, guiding customers, responding to questions from customers, etc.\n・Procedure for shipping customer's luggage.\n・Perform other related/incidental duties.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements of Various Agencies\nScope of work location change: Other U.S. military facilities in Japan"
@@ -3045,7 +3110,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Accounting Technician"
   },
@@ -3149,7 +3214,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Freight Rate Specialist"
   },
@@ -3257,7 +3322,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Painter"
   },
@@ -3311,7 +3376,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Electrician"
   },
@@ -3365,7 +3430,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Boiler Operator"
   },
@@ -3527,7 +3592,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Building Maintenance Worker"
   },
@@ -3633,7 +3698,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Housekeeper"
   },
@@ -3795,7 +3860,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Engineer position (adaptive specialized work)"
   },
@@ -3849,7 +3914,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Plumber"
   },
@@ -3901,7 +3966,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Engineer position (adaptive specialized work)"
   },
@@ -3953,7 +4018,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Refrigeration & Air Conditioning Mechanic"
   },
@@ -4007,7 +4072,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Dental Hygienist"
   },
@@ -4059,7 +4124,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Boiler Operator",
    "description_en": "Operation and adjustment of oil, fire yards, boilers and auxiliary equipment. Inspect, repair, and overhaul boilers and auxiliary parts through routine or periodic maintenance. Performs other related or incidental duties as assigned.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements of Various Agencies\nScope of work location change: Other U.S. military facilities in Japan"
@@ -4167,7 +4232,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Engineer position (adaptive specialized work)"
   },
@@ -4219,7 +4284,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Engineering profession (adaptive specialist work)",
    "description_en": "[Job title] Engineering specialist [Vacancy PR number] MLC(III)25-114\nHe works as a mechanical engineer responsible for site management of construction programs. Serve as the primary point of contact and point of contact on assigned construction projects. Prepare written plans, reports, and other documents and update automated information systems. Conduct briefings, identify project deficiencies, and suggest improvements.\n*Please refer to the Army website for details.\n*Scope of change in job type: Within the scope of the basic labor contract Appendix I Job Definition\n*Scope of change in work location: Other US military facilities in Japan"
@@ -4274,7 +4339,7 @@
     "FSS"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Cook"
   },
@@ -4326,7 +4391,7 @@
     "LMO"
    ],
    "first_seen": "2026-08-11",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Cook",
    "description_en": "Preparation, cooking, plating, and other incidental duties in the hotel kitchen.\nScope of change in job type: Within the scope of Annex I Job Definition of Labor Agreements of Various Agencies\nScope of work location change: Other U.S. military facilities in Japan"
@@ -5332,7 +5397,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-08-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Freight Rate Specialist (leader)"
   },
@@ -5364,7 +5429,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "tractor trailer driver"
   },
@@ -5396,7 +5461,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "supply distribution office"
   },
@@ -5428,7 +5493,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Service Worker"
   },
@@ -5587,7 +5652,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Benefits Program Assistant (Fitness)"
   },
@@ -5683,8 +5748,9 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "active": true
+   "last_seen": "2026-10-26",
+   "active": true,
+   "title_en": "Housekeeper Forman A"
   },
   {
    "id": "FSS-golfcoursemaintenanceman-2-4",
@@ -5714,8 +5780,9 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-10-05",
-   "last_seen": "2026-10-19",
-   "active": true
+   "last_seen": "2026-10-26",
+   "active": true,
+   "title_en": "Golf course maintenance worker*3"
   },
   {
    "id": "FSS-forkliftoperator-2-6",
@@ -5809,7 +5876,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-08-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Engineering profession (electronic)"
   },
@@ -5841,7 +5908,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-08-25",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Engineering profession (architecture)*1"
   },
@@ -5873,7 +5940,7 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-08-17",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-26",
    "active": true,
    "title_en": "Engineer position (electricity)*1"
   },
@@ -5969,8 +6036,9 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "active": true
+   "last_seen": "2026-10-26",
+   "active": true,
+   "title_en": "budget analysis position"
   },
   {
    "id": "FSS-automotivebodyandfenderr-2-6",
@@ -6000,8 +6068,9 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "active": true
+   "last_seen": "2026-10-26",
+   "active": true,
+   "title_en": "Auto body/fender repairman"
   },
   {
    "id": "FSS-animalcaretaker(petbordi-2-3",
@@ -6127,10 +6196,11 @@
    "jp_mentioned": false,
    "jp_note": "",
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
-   "active": true
+   "last_seen": "2026-10-26",
+   "active": true,
+   "title_en": "administrator"
   }
  ],
  "fss_source_url": "https://yokota374fss.com/wp-content/uploads/2026/10/Yokota-Vacancy-Announcement-for-LN-15-Oct-26.pdf",
- "fss_updated": "2026-10-19T12:01:20+09:00"
+ "fss_updated": "2026-10-26T11:56:45+09:00"
 }
